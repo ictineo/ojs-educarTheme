@@ -1,0 +1,625 @@
+/**
+ * ictReset.css
+ *
+ * Copyright (c) 2013 Marc Bria (Projecte Ictineo)
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Reverse common.css, sidebar.css, rightSideBar.css stylesto default values.
+ *
+ * $Id$
+ */
+
+/* Common HTML elements */
+
+a:link { color: blue; }
+a:active { color: red; }
+a:visited { color: purple; }
+a:hover { color: blue; background: none; }
+
+
+/* Main layout elements */
+
+#header { background-color: white; }
+#footer { background-color: white; }
+#main   { width: auto; margin: 0; }
+
+
+/* Access icons and key */
+
+#accessKey { margin-bottom: 0; }
+
+#accessKey img {
+	vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+}
+
+#content img.accessLogo {
+	vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Navigation bar */
+
+#navbar a {
+	font-size: 1em;
+	letter-spacing: normal;
+}
+
+
+/* Announcements */
+
+#announcementsHome { width: auto; margin: 0; }
+#announcementsHome h3 { text-align: left; }
+#announcements { width: auto; }
+#announcements h3 { text-align: left; }
+
+table.announcements { width: 100%; }
+table.announcements td { padding: 0; }
+table.announcements td.nodata { text-align: left; font-style: normal; }
+table.announcements tr.title  { vertical-align: baseline; }
+table.announcements td.title  { width: auto; }
+table.announcements tr.description { vertical-align: baseline; }
+table.announcements td.description { width: auto; }
+table.announcements tr.details { vertical-align: baseline; }
+table.announcements td.posted {
+	padding-top: 0;
+	font-style: normal;
+}
+table.announcements td.more {
+	width: auto;
+	text-align: left;
+}
+
+table.announcementsMore { width: auto; }
+table.announcementsMore td {
+	padding-top: 0;
+	text-align: left;
+}
+
+
+/* Table of contents */
+
+table.tocArticle {
+	/* ICT: This MUST be set to fit your theme */
+	width: 100%;
+}
+
+table.tocArticle td.tocTitle {
+	/* ICT: This MUST be set to fit your theme */
+	width: 90%; 
+}
+
+table.tocArticle td.tocGalleys {
+	/* ICT: This MUST be set to fit your theme */
+	width: 10%;
+	text-align: right;		/* ICT: Normal use */
+}
+
+table.tocArticle td.tocAuthors {
+	padding-left: 0;
+	font-style: normal;
+	vertical-align: baseline;
+}
+
+table.tocArticle td.tocPages {
+	text-align: right;		/* ICT: Normal use */
+	vertical-align: baseline;
+}
+
+.tocArticleCoverImage img {
+	border: 0;
+	float: left;
+	width: 100px;
+	margin: 0 1em 1em 0;
+}
+
+
+/* Homepage image */
+
+#homepageImage img {
+	display: block;
+	margin: 0 auto;
+	border: 0;
+	text-align: center;
+}
+
+.homepageImage img {
+	margin: 0 auto;
+	border: 0;
+	float: left;
+	width: 100px;
+	margin: 1em 1em 1em 0;
+	text-align: center;
+}
+
+/* Issue cover image */
+
+#issueCoverImage img {
+	display: block;
+	border: 0;
+}
+
+.issueCoverImage img {
+	border: 0;
+	float: left;
+	width: 100px;
+	margin: 1em 1em 1em 0;
+}
+
+
+/* Editorial Team Lists */
+
+ol.editorialTeam li { list-style: none; }
+ol.editorialTeam, ol.editorialTeam li {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+
+/* Additional text styles */
+
+pre {
+	background-color: #F0F0E8;
+	color: #000;
+	font-size: 1.25em;
+}
+
+/* Table styles */
+/* ICT: Ignored */
+
+/* Other organizational elements */
+/* ICT: Ignored */
+
+/* Font Sizer */
+/* ICT: Ignored */
+
+/* @group Tag-it */
+/* ICT: Ignored */
+
+/* @end common.css */
+
+
+/**
+ * sidebar.css
+ */
+
+/* Sidebar */
+
+#developedBy {
+	/* ICT: Ignored */
+}
+
+#sidebar div.block {
+        padding-bottom: 0;
+}
+
+span.blockTitle {
+        color: black;
+}
+
+#sidebar div.block span.blockTitle {
+        display: inline;
+        font-size: 1.1em;
+        padding: 0;
+        letter-spacing: normal;
+        text-transform: none;
+}
+
+#sidebar div.block span.blockSubtitle {
+        display: inline;
+}
+
+#sidebar input.textField, #sidebar select.selectMenu, #sidebar input.button {
+	/* ICT: Ignored */
+}
+
+/* @end sidebar.css */
+
+
+/**
+ * rightSidebar.css
+ */
+
+#headerTitle {
+        text-align: left;
+        width: auto;
+}
+
+#body {
+        /* width: auto; */
+        /* MBR: For papers project, the value must be forced as far as .width class has lower priority */
+        width: 960px;
+        margin: 0 auto;
+}
+
+#rightSidebar {
+        float: none;
+        width: auto;
+        padding: 0;
+        font-size: 1em;
+        height: auto;
+        margin-right: 0;
+        margin-left: 0;
+}
+
+* html #rightSidebar {
+        margin-right: 0;
+}
+
+#main {
+        float: none;
+        width: auto;
+        margin-left: 0;
+        display: inline;
+        overflow: visible;
+}
+
+/* @end rightSidebar.css */
+
+
+/**
+ * common.css
+ * PKP-wide shared stylesheet.
+ */
+
+/* Common HTML elements */
+
+body {
+	background-color: white;
+	color: #111;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+a { text-decoration: none; }
+
+ul { margin: 0; padding: 0; }
+
+input.textField, select.selectMenu, textarea.textArea, input.uploadField {
+	background-color: white;
+	color: #000;
+	border: 1px solid #CCC;
+	padding: 1px 2px;
+}
+
+input,
+input.button,
+input.defaultButton {
+	background-color: #CCC;
+	border: 1px solid #999;
+	padding: 1px 4px;
+	font-weight: normal;
+}
+
+
+input,
+input.button {
+	color: #777;
+}
+
+input.defaultButton {
+	color: black;
+}
+
+/* Main layout elements  */
+
+#container {
+	width: auto;
+	min-width: 0;
+	margin: 0;
+	text-align: left;
+}
+
+#header {
+	width: auto;
+}
+
+#headerTitle {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+.wf-loading #header h1 {
+  visibility: hidden;
+}
+.wf-active #header h1 {
+	/*margin: 0;
+	padding: 0;*/
+	font-family: fontPapersBold;
+  visibility: visible;
+}
+
+#footer {
+	width: auto;
+	min-height: 0;
+	position: static;
+	clear: both;
+	text-align: center;
+}
+
+#footerContent {
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	padding: 0;
+}
+
+.wf-loading #main h2 {
+  visibility: hidden;
+}
+.wf-active #main h2 {
+	margin: 0;
+	padding: 0;
+	font-family: fontPapersBold;
+  visibility: visible;
+}
+
+.wf-loading #main h3 {
+  visibility: hidden;
+}
+#main h3,
+.wf-active #main h3 {
+	margin: 0;
+	padding: 0;
+	font-family: fontPapersBold;
+  visibility: visible;
+	font-weight: normal;
+}
+
+.wf-loading #main h4 {
+  visibility: hidden;
+}
+#main h4,
+.wf-active #main h4 {
+	margin: 0;
+	padding: 0;
+	font-family: fontPapersBold;
+	font-weight: normal;
+  visibility: visible;
+} 
+
+#navbar {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#breadcrumb {
+	padding: 0;
+	font-size: 1em;
+}
+
+#content {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 1em;
+}
+
+.wf-loading #content h3 {
+  visibility: hidden;
+}
+.wf-active #content h3 {
+	margin: 0;
+	padding: 0;
+	font-family: fontPapersBold;
+  visibility: visible;
+	font-weight: normal;
+	font-size: 1.3em;
+}
+
+.wf-loading #content h4 {
+  visibility: hidden;
+}
+.wf-active #content h4 {
+	margin: 0;
+	font-family: fontPapersBold;
+  visibility: hidden;
+	font-weight: normal;
+	font-size: 1.2em;
+}
+
+#content h5 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+
+/* Breadcrumbs */
+
+#breadcrumb a.current {
+	font-weight: normal;
+}
+
+
+/* Footer elements */
+
+#footer div.debugStats {
+}
+
+
+/* Additional text styles */
+
+span.disabled, label.disabled {
+	color: #999;
+}
+
+a.action, a.file {
+	font-size: 0.85em;
+	text-transform: uppercase;
+}
+
+span.formRequired {
+	color: #333;
+}
+
+span.heading {
+	font-size: 0.85em;
+	text-transform: uppercase;
+}
+
+span.highlight {
+	border-bottom: 1px solid #000;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+/* Table styles */
+
+table.info td {
+	padding: 0;
+}
+
+table.listing td {
+	padding: 0;
+}
+
+table.listing tr.heading td, table.listing td.heading, table.info td.heading {
+	font-size: 1em;
+	/* text-transform: uppercase; */
+        border-bottom: 2px solid #CCCCCC;
+        margin-bottom: 1em;
+	text-transform: none;
+	font-weight: normal;
+	padding: 0;
+}
+
+table.listing td.nodata, table.info td.nodata {
+	/* text-align: center; */
+	/* font-style: italic; */
+	font-style: italic;
+}
+
+table.listing td.headseparator {
+	/* border-top: 1px dotted #000;
+	font-size: 0.1em;
+	line-height: 1%; */
+	border: 0;
+	height: 0;
+}
+
+table.listing td.endseparator {
+	/* border-top: 1px dotted #000;
+	font-size: 0.25em;
+	line-height: 10%; */
+	border: 0;
+	height: 0;
+}
+
+table.listing td.separator, table.info td.separator {
+	/*border-top: 1px dotted #DDDDD0;
+	font-size: 0.1em;
+	line-height: 1%;*/
+	border: 0;
+	height: 0;
+}
+
+table.data td {
+  padding-bottom: 1em;
+  vertical-align: baseline;
+}
+
+table.data td.label {
+	padding-right: 1em;
+  line-height: 1.2em;  /* ICT: Looks better */
+}
+
+table.data td.separator {
+	/* padding: 0.5em;
+	font-size: 0.1em;
+	line-height: 1%;*/
+	border: 0;
+	height: 1%;
+}
+
+span.nested {
+	padding: 0;
+	font-size: 1em;
+}
+
+/* Form-specific elements */
+
+span.formError {
+	font-size: 1em;
+}
+
+span.formSuccess {
+	font-size: 1em;
+}
+
+ul.formErrorList {
+}
+
+
+/* Other organizational elements */
+
+ul.menu {
+}
+
+ul.menu li {
+	padding: 0;
+	/* display: inline; */
+}
+
+ul.menu li.current {
+	/* font-weight: bold; */
+}
+
+ul.menu a {
+	font-size: 1em;
+	text-transform: none;
+}
+
+ul.steplist li {
+	font-size: 1em;
+	padding: 0em;
+	/*text-transform: uppercase;*/
+}
+
+ul.steplist li.current {
+	/*font-weight: bold;*/
+}
+
+ul.steplist a {
+}
+
+ul.plain {
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+ul.filter {
+	padding: 0;
+}
+
+ul.filter li {
+	padding-right: 0;
+	/*display: inline;*/
+}
+
+
+/* Other organizational elements */
+
+div.separator {
+	width: 100%;
+	/*margin-top: 1em;
+	margin-bottom: 0.25em;
+	padding: 0;
+	border-bottom: 1px dotted #000;
+	font-size: 0.5em;
+	line-height: 25%;*/
+	border: 0;
+	height: 0;
+}
+

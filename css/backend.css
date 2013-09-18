@@ -1,0 +1,760 @@
+/*Backend*/
+/*Submit*/
+/* line 6, ../sass/backend.scss */
+#breadcrumb {
+  padding-bottom: 0.5em;
+}
+
+/* line 9, ../sass/backend.scss */
+#content {
+  font-family: bariol_regularregular;
+  margin-top: 0.5em;
+}
+/* line 12, ../sass/backend.scss */
+#content h3 {
+  padding-bottom: 0.5em;
+}
+/* line 15, ../sass/backend.scss */
+#content h4 {
+  font-family: bariol_regularregular;
+  padding-top: 1.8em;
+  padding-bottom: 0em;
+  margin-bottom: -0.5em;
+}
+/* line 22, ../sass/backend.scss */
+#content a {
+  color: #e94b63;
+}
+/* line 23, ../sass/backend.scss */
+#content a:hover {
+  color: #454545;
+}
+
+/*Editor*/
+/* line 37, ../sass/backend.scss */
+form {
+  /* margin-top:1em;*/
+}
+/* line 39, ../sass/backend.scss */
+form .selectMenu {
+  width: 100%;
+}
+
+/* line 43, ../sass/backend.scss */
+#content > ul li,
+#content > * {
+  margin-right: 0px;
+}
+
+/* line 48, ../sass/backend.scss */
+table.listing td a.action {
+  padding: 0px;
+  line-height: 2em;
+}
+/* line 52, ../sass/backend.scss */
+table.listing tr {
+  height: 1em;
+}
+
+/* line 57, ../sass/backend.scss */
+table.listing tr.heading td,
+table.listing td.heading,
+table.info td.heading {
+  text-align: left;
+  width: 11%;
+}
+
+/* line 62, ../sass/backend.scss */
+.filter:focus {
+  background-color: #6d6d6d;
+}
+
+/* line 66, ../sass/backend.scss */
+#issues {
+  margin-top: 1em;
+  color: #6d6d6d;
+}
+/* line 69, ../sass/backend.scss */
+#issues a:link {
+  color: #6d6d6d;
+}
+/* line 70, ../sass/backend.scss */
+#issues tr td.endseparator {
+  padding-top: 1em;
+  padding-bottom: 0.2em;
+}
+/* line 72, ../sass/backend.scss */
+#issues tr td {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+/*Formularios gestión general*/
+/* line 83, ../sass/backend.scss */
+#emails a,
+table.data a,
+#reviewForms a,
+#announcementList a {
+  padding: 0px;
+}
+
+/* line 85, ../sass/backend.scss */
+#emails .heading td {
+  width: 20%;
+}
+
+/* line 88, ../sass/backend.scss */
+#selectSections input[type="checkbox"] {
+  padding: 2px;
+}
+
+/* line 92, ../sass/backend.scss */
+#notifications td.notificationFunction {
+  display: block;
+}
+
+/* line 96, ../sass/backend.scss */
+#notificationSettings h4 {
+  padding-bottom: 0.5em;
+  color: #e94b63;
+}
+
+/* line 100, ../sass/backend.scss */
+#notificationSettings ul {
+  list-style: none;
+}
+/* line 102, ../sass/backend.scss */
+#notificationSettings ul li li {
+  line-height: 2em;
+}
+
+/* line 105, ../sass/backend.scss */
+#content ul {
+  padding-top: 0.5em;
+  list-style: none;
+}
+/* line 108, ../sass/backend.scss */
+#content ul a {
+  width: 100%;
+}
+
+/*Submit article*/
+/* line 115, ../sass/backend.scss */
+#submitStart h4,
+#referrals h4 {
+  font-family: bariol_regularregular;
+}
+/* line 116, ../sass/backend.scss */
+#submitStart a,
+#referrals a {
+  padding-left: 0px;
+}
+
+/* line 118, ../sass/backend.scss */
+#content h3 {
+  font-family: bariol_regularregular;
+  color: #000000;
+}
+
+/* line 123, ../sass/backend.scss */
+#authors,
+#uploadInstructions {
+  color: #000000;
+}
+
+/* line 127, ../sass/backend.scss */
+div.separator {
+  display: none;
+}
+
+/* line 129, ../sass/backend.scss */
+#addSubmissionFile a.action {
+  float: left;
+}
+
+/* line 148, ../sass/backend.scss */
+#content div#section h3,
+#content div#submissionLocale h3,
+#content div#checklist h3,
+#content div#copyrightNotice h3,
+#content div#privacyStatement h3,
+#content div#commentsForEditor h3,
+#content div#submissionFile h3,
+#content div#authors h3,
+#content div#titleAndAbstract h3,
+#content div#indexing h3,
+#content div#submissionSupportingAgencies h3,
+#content div#openAIRE h3,
+#content div#addSubmissionFile h3,
+#content div#submissionFile h3,
+#content div#metaCitations h3 {
+  /*margin-left:0px;*/
+  /*font-size: 1.6em;*/
+  /*font-family:Bariol_regularregular;*/
+  /*text-transform:uppercase;*/
+  /*padding-top:1.6em;*/
+  /*display: block;*/
+  /*width: 100%;*/
+  margin-bottom: -0.5em;
+  padding-bottom: 0px;
+}
+/* line 159, ../sass/backend.scss */
+#content div#section table,
+#content div#submissionLocale table,
+#content div#checklist table,
+#content div#copyrightNotice table,
+#content div#privacyStatement table,
+#content div#commentsForEditor table,
+#content div#submissionFile table,
+#content div#authors table,
+#content div#titleAndAbstract table,
+#content div#indexing table,
+#content div#submissionSupportingAgencies table,
+#content div#openAIRE table,
+#content div#addSubmissionFile table,
+#content div#submissionFile table,
+#content div#metaCitations table {
+  margin-top: 0.8em;
+}
+/* line 164, ../sass/backend.scss */
+#content div#section ul li,
+#content div#section ol li,
+#content div#section p,
+#content div#submissionLocale ul li,
+#content div#submissionLocale ol li,
+#content div#submissionLocale p,
+#content div#checklist ul li,
+#content div#checklist ol li,
+#content div#checklist p,
+#content div#copyrightNotice ul li,
+#content div#copyrightNotice ol li,
+#content div#copyrightNotice p,
+#content div#privacyStatement ul li,
+#content div#privacyStatement ol li,
+#content div#privacyStatement p,
+#content div#commentsForEditor ul li,
+#content div#commentsForEditor ol li,
+#content div#commentsForEditor p,
+#content div#submissionFile ul li,
+#content div#submissionFile ol li,
+#content div#submissionFile p,
+#content div#authors ul li,
+#content div#authors ol li,
+#content div#authors p,
+#content div#titleAndAbstract ul li,
+#content div#titleAndAbstract ol li,
+#content div#titleAndAbstract p,
+#content div#indexing ul li,
+#content div#indexing ol li,
+#content div#indexing p,
+#content div#submissionSupportingAgencies ul li,
+#content div#submissionSupportingAgencies ol li,
+#content div#submissionSupportingAgencies p,
+#content div#openAIRE ul li,
+#content div#openAIRE ol li,
+#content div#openAIRE p,
+#content div#addSubmissionFile ul li,
+#content div#addSubmissionFile ol li,
+#content div#addSubmissionFile p,
+#content div#submissionFile ul li,
+#content div#submissionFile ol li,
+#content div#submissionFile p,
+#content div#metaCitations ul li,
+#content div#metaCitations ol li,
+#content div#metaCitations p {
+  font-family: Bariol_regularregular;
+  font-size: 1em;
+}
+/* line 169, ../sass/backend.scss */
+#content div#section h3 {
+  padding-top: 0px;
+}
+
+/* line 173, ../sass/backend.scss */
+#content ul.steplist {
+  margin-bottom: 1em;
+}
+
+/* line 176, ../sass/backend.scss */
+input.button {
+  background-color: #E94B63;
+  border-style: none;
+  color: #FFFFFF;
+  font-family: Bariol_regularregular;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  word-spacing: normal;
+}
+
+/*Pagina área personal*/
+/* line 193, ../sass/backend.scss */
+#content div#myAccount ul.plain {
+  font-size: 1em;
+  text-transform: none;
+  background-color: #ffffff;
+  margin-left: -16px;
+  border-style: none;
+}
+/* line 199, ../sass/backend.scss */
+#content div#myAccount ul.plain li {
+  display: block;
+  padding-left: 0px;
+  padding-top: 0px;
+  line-height: 1em;
+  margin-left: 0px;
+  color: #111111;
+}
+/* line 206, ../sass/backend.scss */
+#content div#myAccount ul.plain li a {
+  margin-left: 0px;
+  font-family: Bariol_regularregular;
+  color: #E94B63;
+  text-decoration: none;
+  word-spacing: 0.2em;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: 1.9em;
+  font-size: 1em;
+  padding: 0px;
+}
+/* line 218, ../sass/backend.scss */
+#content div#myAccount ul.plain li a:hover {
+  color: #454545;
+  border-style: none;
+}
+
+/*Menús horitzontals pestanyes*/
+/* line 230, ../sass/backend.scss */
+#body div#content ul.menu,
+#body div#content ul.steplist {
+  /* quiron: els ul.menu estan a 444px
+   * (per els del frontend)
+   * però els menus poden ocupar lample
+   * de la col central
+   */
+  width: 704px;
+  position: relative;
+  padding-top: 0.5em;
+  text-align: left;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+  /*width: auto;*/
+  font-size: 0.7em;
+  font-family: LatoRegular;
+  text-transform: uppercase;
+  background-color: #f0f0f0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+  border-bottom: 1px solid #e94b63;
+}
+/* line 253, ../sass/backend.scss */
+#body div#content ul.menu li,
+#body div#content ul.steplist li {
+  display: inline;
+  color: #f0f0f0;
+  /* quiron: queden masses espais en blanc
+   * i fa salts de linia
+   */
+  /*padding-left: 46px; */
+  padding-left: 8px;
+  line-height: 2em;
+}
+/* line 262, ../sass/backend.scss */
+#body div#content ul.menu li a,
+#body div#content ul.steplist li a {
+  color: #e94b63;
+  padding-bottom: 4px;
+  padding-top: 3px;
+  border-left: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+  border-top: 1px solid #f0f0f0;
+}
+/* line 272, ../sass/backend.scss */
+#body div#content ul.menu li a.activeItem, #body div#content ul.menu li a:hover, #body div#content ul.menu li a:active,
+#body div#content ul.steplist li a.activeItem,
+#body div#content ul.steplist li a:hover,
+#body div#content ul.steplist li a:active {
+  background-color: #fff;
+  padding-bottom: 5px;
+  border-left: 1px solid #e94b63;
+  border-right: 1px solid #e94b63;
+  border-top: 1px solid #e94b63;
+  border-bottom: 2px solid white;
+}
+/* line 280, ../sass/backend.scss */
+#body div#content ul.menu li a.activeItem,
+#body div#content ul.steplist li a.activeItem {
+  font-family: LatoBold;
+}
+/* line 284, ../sass/backend.scss */
+#body div#content ul.menu li.current a,
+#body div#content ul.steplist li.current a {
+  background-color: #fff;
+  padding-bottom: 5px;
+  border-left: 1px solid #e94b63;
+  border-right: 1px solid #e94b63;
+  border-top: 1px solid #e94b63;
+  border-bottom: 1px solid white;
+  font-family: LatoBold;
+}
+
+/** Sobrescrit pel comportament
+ * de les steplist
+ */
+/* line 300, ../sass/backend.scss */
+#body div#content ul.steplist li {
+  color: #e94b63;
+  text-align: center;
+  /* als steplist tenen noms llargs
+   * així evitem que salti de linia
+   * a la meitat
+   */
+  white-space: nowrap;
+  padding-top: 4px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+/* line 313, ../sass/backend.scss */
+#body div#content ul.steplist li.current {
+  background-color: #fff;
+  padding-bottom: 5px;
+  border-left: 1px solid #e94b63;
+  border-right: 1px solid #e94b63;
+  border-top: 1px solid #e94b63;
+  border-bottom: 2px solid white;
+  font-family: LatoBold;
+  padding-left: 8px;
+}
+/* line 322, ../sass/backend.scss */
+#body div#content ul.steplist li.current a {
+  border: 0px none;
+}
+
+/* line 328, ../sass/backend.scss */
+#body div#content ul.steplist a {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/*color fons taules*/
+/* line 336, ../sass/backend.scss */
+#submissions table.listing tr.highlight {
+  background: none repeat scroll 0 0 #d6d6d6;
+}
+/* line 339, ../sass/backend.scss */
+#submissions table.listing tr.fastTracked {
+  background-color: #f0f0f0;
+}
+/* line 342, ../sass/backend.scss */
+#submissions table.listing tr.heading td[width="5%"] {
+  width: 5%;
+}
+/* line 345, ../sass/backend.scss */
+#submissions table.listing tr.heading td[width="15%"] {
+  width: 20%;
+}
+/* line 348, ../sass/backend.scss */
+#submissions table.listing tr.heading td[width="25%"] {
+  width: 25%;
+}
+/* line 351, ../sass/backend.scss */
+#submissions table.listing tr.heading td[width="30%"] {
+  width: 25%;
+}
+/* line 354, ../sass/backend.scss */
+#submissions table.listing tr.heading td[width="35%"] {
+  width: 30%;
+}
+/* line 357, ../sass/backend.scss */
+#submissions table.listing tr.heading td[width="50%"] {
+  width: 50%;
+}
+/* line 360, ../sass/backend.scss */
+#submissions table.listing tr.heading td[width="60%"] {
+  width: 50%;
+}
+/* line 363, ../sass/backend.scss */
+#submissions table.listing tr.heading td[width="10%"] {
+  width: 9%;
+}
+/* line 366, ../sass/backend.scss */
+#submissions table.listing td {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+/* line 370, ../sass/backend.scss */
+#submissions table.listing table.nested td {
+  border-bottom: 0px none;
+  border-top: 2px solid #cccccc;
+}
+
+/* line 380, ../sass/backend.scss */
+#issues #dragTable.listing tr.heading td[width="60%"] {
+  width: 50%;
+}
+
+/* espaiant h3*/
+/* line 394, ../sass/backend.scss */
+#content h3,
+#content #articleSubmissions h3,
+#content #notifyUsers #recipients h3,
+#content #notifyUsers #issue h3,
+#content #submitStart h4,
+#content #issues h3 {
+  padding-top: 1.8em;
+  /* quiron: en apartats dedicio
+   * el padding-bottom amb el top
+   * del seguent elemnt fa que quedi
+   * igual de lluny que el alement 
+   * precedent, cal reduir, valorar
+   * si afegir margin-bottom: -0.5em
+   */
+  padding-bottom: 0px;
+}
+/* line 405, ../sass/backend.scss */
+#content div#submitStart {
+  margin-bottom: 20px;
+}
+/* line 408, ../sass/backend.scss */
+#content form {
+  padding-top: 2.7em;
+}
+/* line 411, ../sass/backend.scss */
+#content form[enctype="multipart/form-data"] {
+  padding-top: 1em;
+}
+/* line 413, ../sass/backend.scss */
+#content form[enctype="multipart/form-data"] #identification h3 {
+  padding-top: 1.5em;
+}
+
+/* line 419, ../sass/backend.scss */
+#issues tr td.headseparator {
+  padding-top: 2.2em;
+}
+
+/* botons */
+/* line 441, ../sass/backend.scss */
+#content #copyedit table.data td.value a.action,
+#content #copyedit table.info td a.action,
+#content #proofread table.data td.value a.action,
+#content #layout table.info td a.action,
+#content #layout #layoutEditors table.data td.value a.action,
+#content #announcementList a.action,
+#content #announcementTypes table.listing a.action,
+#content #announcementTypes a.action,
+#content #groups table#dragTable td a.action,
+#content div#groups a.action,
+#content #sections a.action,
+#content #emails a.action,
+#content #submissionEmailLog a.action,
+#content #submissionNotes a.action,
+#content #reviewForms a.action {
+  font-family: Bariol_regularregular;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  color: #ffffff;
+  background-color: #E94B63;
+  padding: 0 4px;
+}
+/* line 451, ../sass/backend.scss */
+#content #copyedit table.data td.value a.action:hover,
+#content #copyedit table.info td a.action:hover,
+#content #proofread table.data td.value a.action:hover,
+#content #layout table.info td a.action:hover,
+#content #layout #layoutEditors table.data td.value a.action:hover,
+#content #announcementList a.action:hover,
+#content #announcementTypes table.listing a.action:hover,
+#content #announcementTypes a.action:hover,
+#content #groups table#dragTable td a.action:hover,
+#content div#groups a.action:hover,
+#content #sections a.action:hover,
+#content #emails a.action:hover,
+#content #submissionEmailLog a.action:hover,
+#content #submissionNotes a.action:hover,
+#content #reviewForms a.action:hover {
+  color: #000;
+}
+
+/* line 457, ../sass/backend.scss */
+#content #announcementTypes table.listing {
+  margin-bottom: 10px;
+}
+
+/* manager setup */
+/* line 463, ../sass/backend.scss */
+#content ol li {
+  line-height: 3em;
+  margin-bottom: -80px;
+  margin-top: -60px;
+}
+/* line 467, ../sass/backend.scss */
+#content ol li a:hover {
+  color: #454545;
+}
+
+/* line 471, ../sass/backend.scss */
+#content ol #member li {
+  line-height: 1em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+/* overwritte for author/submit/1 */
+/* line 480, ../sass/backend.scss */
+#content div#uploadInstructions ol li,
+#content div#copyrightNotice ol li {
+  line-height: 1.4em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+/* line 485, ../sass/backend.scss */
+#content div#uploadInstructions p,
+#content div#copyrightNotice p {
+  margin-top: 1em;
+}
+
+/* line 507, ../sass/backend.scss */
+#content form #journalTitleAndLogo h4,
+#content form #journalLogoImage h4,
+#content form #journalDescription h4,
+#content form #homePageImage h4,
+#content form #currentIssue h4,
+#content form #additionalContent h4,
+#content form #journalPageHeaderInfo #pageHeaderTitle h4,
+#content form #journalPageHeaderInfo #journalLogo h4,
+#content form #journalPageHeaderInfo #journalFavicon h4,
+#content form #journalPageHeaderInfo #alternateHeader h4,
+#content form #infoForReaders h4,
+#content form #infoForAuth h4,
+#content form #infoForLibs h4 {
+  margin-bottom: 0.5em;
+  margin-top: -1.2em;
+}
+
+/* line 513, ../sass/backend.scss */
+.defaultSkin table.mceLayout tr.mceLast td {
+  padding-bottom: 14px;
+}
+
+/* line 517, ../sass/backend.scss */
+#content #journalLayout table td select.selectMenu {
+  width: 250px !important;
+  margin-top: 10px;
+}
+
+/* line 531, ../sass/backend.scss */
+div#content form #journalHomepageHeader h3,
+div#content form #journalHomepageContent h3,
+div#content form #journalPageHeaderInfo h3,
+div#content form #journalPageFooterInfo h3,
+div#content form #navigationBar h3,
+div#content form #journalLayout h3,
+div#content form #setupInfo h3,
+div#content form #lists h3 {
+  margin-bottom: -1em;
+}
+/* line 534, ../sass/backend.scss */
+div#content form #journalHomepageHeader p,
+div#content form #journalHomepageContent p,
+div#content form #journalPageHeaderInfo p,
+div#content form #journalPageFooterInfo p,
+div#content form #navigationBar p,
+div#content form #journalLayout p,
+div#content form #setupInfo p,
+div#content form #lists p {
+  font-size: 1.1em;
+}
+/* line 538, ../sass/backend.scss */
+div#content form #submissionPreparationChecklist p {
+  font-family: Bariol_regularregular;
+  font-size: 1em;
+  margin-top: 30px;
+}
+/* line 545, ../sass/backend.scss */
+div#content form #forAuthorsToIndexTheirWork table.data td.value h4 {
+  margin-top: -35px;
+}
+/* line 556, ../sass/backend.scss */
+div#content form #securitySettings h4,
+div#content form #publicationScheduling h4,
+div#content form #publicIdentifier h4,
+div#content form #announcementsSection h4,
+div#content form #copyediting h4,
+div#content form #copyeditInstructionsSection h4,
+div#content form #layoutAndGalleys h4,
+div#content form #proofreading h4 {
+  padding-top: 0.9em;
+  padding-bottom: 0.8em;
+}
+/* line 561, ../sass/backend.scss */
+div#content form #layoutAndGalleys #referenceLinking ol li {
+  line-height: 1em;
+  margin: 0px;
+}
+
+/* Estadistiques*/
+/* line 569, ../sass/backend.scss */
+div#content #statistics form table.data {
+  margin-top: -50px;
+}
+/* line 571, ../sass/backend.scss */
+div#content #statistics form table.data td.label {
+  width: 40%;
+}
+/* line 573, ../sass/backend.scss */
+div#content #statistics form table.data td.label input {
+  margin-right: 10px;
+}
+
+/*Anuncios*/
+/* line 582, ../sass/backend.scss */
+div#content #announcementList table.listing tbody tr.heading td:first-of-type {
+  width: 6%;
+}
+/* line 585, ../sass/backend.scss */
+div#content #announcementList table.listing tbody tr.heading td:last-of-type {
+  width: 5%;
+  padding-left: 10px;
+}
+/* line 589, ../sass/backend.scss */
+div#content #announcementList table.listing tbody tr.heading td {
+  padding-left: 10px;
+}
+
+/* Equipo de trabajo */
+/* line 597, ../sass/backend.scss */
+div#content form[method="post"] {
+  /* quiron, de 1.4 a 1.8*/
+  line-height: 1.8em;
+}
+/* line 601, ../sass/backend.scss */
+div#content #groups table#dragTable.listing tbody tr.heading td[width="25%"] {
+  text-align: center;
+}
+/* line 604, ../sass/backend.scss */
+div#content #groups table#dragTable td a.action:first-of-type {
+  margin-left: 135px;
+}
+/* line 607, ../sass/backend.scss */
+div#content #groups table#dragTable.listing {
+  margin-bottom: 10px;
+}
+
+/**
+ * Estil per mceEditor WYSiWYG
+ */
+/* line 617, ../sass/backend.scss */
+#description_parent .mceLayout,
+#descriptionShort_parent .mceLayout {
+  /** tot lample disponible **/
+  width: 100%;
+  width: 100% !important;
+}

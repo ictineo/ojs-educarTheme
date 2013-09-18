@@ -270,7 +270,8 @@ span.blockTitle {
 body {
 	background-color: white;
 	color: #111;
-	font-family: Verdana,Arial,Helvetica,sans-serif;
+  /*font-family: Verdana,Arial,Helvetica,sans-serif;*/
+  font-family: 'DroidSerifRegular';
 }
 
 a { text-decoration: none; }

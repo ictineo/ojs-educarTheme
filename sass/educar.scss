@@ -1,1 +1,561 @@
+/*Theme developed by Projecte Ictineo for EDUCAR*/
+/*body {display: none;}*/
+
+/*************/
+/** Base font*/
+/**   sizes **/
+/*************/
+#container {
+  #header,
+  #navbar,
+  #sidebar,
+  #main {
+    font-size: 16px;
+  }
+}
+
+#main {
+  top: -5px;
+  padding-top: 14px;
+  & > * {
+    padding: {
+      left: 16px;
+      right: 16px; }
+  }
+}
+
+/*************/
+/** Clearfix */
+/************/
+#content:after,
+#content:before {
+  content: "";
+  display: table;
+}
+#content:after {
+  clear: both;
+}
+/* For IE 6/7 */
+#content {
+  zoom: 1;
+}
+
+/*************/
+/** headers **/
+/*************/
+
+@import "header.scss";
+@import "sidebar.scss";
+
 * { border: 0px none; }
+
+/**
+ * General layout
+ */
+#tocWrapper {
+  display: none;
+}
+li {
+  /*list-style-image: url('../img/flecha_r.png');*/
+}
+
+
+
+/****************** Body *******************/
+
+body {
+   background-color: #fbfbfb;
+  background-image: url('../img/fondo.png');
+}
+
+#container #body {
+  background-color: #ffffff;
+  padding-bottom: 45px;
+}
+
+#content {
+  background-color: #ffffff;
+  & > * {
+    width: 704px;
+  }
+  h3 {
+    font: {
+      family: LatoRegular;
+      size: 1.6em; }
+    background-color: #fff;
+    color: #000;
+    text: {
+      decoration: none;
+      align: left; }
+    word-spacing: normal;
+    letter-spacing: 0;
+    line-height: 1.3em;
+    margin-top: -25px;
+  }
+}
+
+
+#body { 
+  width: 1016px;
+  position: relative;
+  top: 0px;
+  padding-top: 1px;
+ /* #sidebarUser.block,
+  #sidebarFontSize,
+  #sidebarInformation.block,
+  #sidebarHelp,
+  #sidebarWebFeed,
+  #sidebarLanguageToggle.block {
+    display: none; } */
+  #main h2 {
+    display: none;
+  }
+  div#content #showTocWrapper,
+  div#content ul.menu {
+    /*width: 100%;*/
+    background-color: #f0f0f0;
+    text-align: center;
+    /*top: -25px;*/
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 260px;
+    width: 444px;
+    a {
+      padding: 8px;
+      font: {
+        family: Bariol_regularregular;
+        size: 1em; }
+      color: #e94b63;
+      text: {
+        decoration: none;
+        transform: uppercase; }
+      word-spacing: normal;
+      letter-spacing: 1px;
+      line-height: 1.3em;
+    }
+  }
+}
+
+
+/*** Cover & description ****/
+#issueCoverDescription {
+    margin-top: -4px;
+    p{
+      margin: 0px;
+      font-family: 'DroidSerifRegular';
+      background-color: #fff;
+      color: #454545;
+      text-decoration: none;
+      word-spacing: normal;
+      text-align: left;
+      letter-spacing: 0;
+      line-height: 1.4em;
+      font-size: 1em;
+      margin-left: 260px;
+  }
+}
+#issueCoverDescription p + p{
+  text-indent: 20px;
+}
+div#issueCoverImage {
+  float: left;
+  width: auto;
+  img {
+    width: 231px;
+    height: 326px;
+  }
+}
+div#showTocWrapper {
+  clear: both;
+}
+
+/* Content Table */
+
+#inlineToc {
+  h3 {                                                                                                                              
+    font: {
+      family: LatoBold;
+      size: 1em; }
+    line-height: 2.6em;
+    color: #e94b63;
+    }
+  h4,
+  table.tocArticle td.tocTitle {
+    width: 65%;
+    font: {
+      family: LatoRegular;
+      size: 0.9em; }
+    color: #e94b63;
+    line-height: 1.8em;
+    a {
+      font: {
+        family: LatoItalic;
+        size: 1.1em; }
+      color: #000000;
+      line-height: 1.1em;
+      &:hover {
+        color: #f0f0f0;
+      }
+    }
+  }
+  .tocGalleys {
+    .tocPages {
+      display: none;
+    }
+    a {
+      font: {
+        family: LatoBold;
+        size: 0.7em; }
+      color: #e94b63;
+      &:hover {
+        color: #f0f0f0; 
+      }
+    }
+  }
+}
+
+
+
+
+/*Forms*/
+input.textField, 
+select.selectMenu, 
+textarea.textArea, 
+input.uploadField  {
+  font-family: bariol_regularregular;
+}
+
+#advancedSearch input.textField:focus, 
+#advancedSearch select.selectMenu:focus, 
+#advancedSearch textarea.textArea:focus, 
+#advancedSearch input.uploadField:focus  {
+  background-color:#F0F0F0;
+}
+
+#content span.formError {
+/*  color:#6d6d6d;*/
+  color:#e94b63;
+  font-size:1.5em;
+  font-family:Bariol_regularregular;
+  font-weight:normal;
+  display:block; /*para login*/
+  width:90%;
+  
+}
+
+/*Anuncis*/
+
+#content #announcementsHome {
+  margin: {
+    top: 90px; }
+  padding-bottom: 20px;
+  h3 {
+    font: {
+      family: LatoBold;
+      size: 0.9em; }
+    color: #454545;
+    text: {
+      decoration: none;
+      transform: uppercase;
+      align: left; }
+    word-spacing: normal;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    border-bottom: {
+      width: 1px;
+      style: solid;
+      color: #e94b63; }
+  }
+  h4 {
+    font: {
+      size: 1em;
+      family: LatoBoldItalic; }
+    color: #000000;
+    margin-top: 0.5em;
+  }
+  .posted {
+    font: {
+      family: LatoLight;
+      size: 0.8em; }
+    color: #e94b63;
+    padding-left: 16px;
+  }
+
+  .description {
+    font: {
+      family: LatoRegular;
+      size: 0.9em; }
+    color: #989898;
+    text: {
+      decoration: none;
+      align: left; }
+    word-spacing: normal;
+    letter-spacing: 0;
+    line-height: 1.4em;
+  }
+  table.announcements {
+    border: {
+        right: {
+          width: 14px;
+          style: solid;
+          color: #F0F0F0; }
+        left: {
+          width: 14px;
+          style: solid;
+          color: #F0F0F0; }
+        bottom: {
+          width: 14px;
+          style: solid;
+          color: #F0F0F0; }
+        collapse: inherit;
+    }
+    td.separator {
+      border: {
+        width: 7px;
+        style: solid;
+        color: #F0F0F0; }
+    }
+    background-color: #FFFFFF;
+    td.endseparator,
+    td.headseparator {
+      border-style: none;
+    }
+    tr.title td * {
+      margin-left: 16px;
+    }
+    tr.description td p {
+      /*margin: 5px 0 0 8px;*/
+      margin: 0 0 0 8px;
+      padding: 0 0 0 0;
+    }
+    tr.description td strong {
+      margin: 5px 0 5px 8px;
+      padding: 0 0 0 0;
+      font-weight: normal;
+    }
+    tr.description td p + strong {
+      margin-left: 16px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      padding: {
+        top: 0;
+        bottom: 0; }
+    }
+    tr.details td.more a {
+      background: {
+        image: url('../img/mas.png');
+        position: 100% 100%;
+        repeat: no-repeat; }
+      margin: {
+        right: -10px; }
+      text-indent: -9999px;
+      display: block;
+      height: 25px;
+      width: 25px;
+    }
+  }
+}
+
+table.announcementsMore {
+    display: none;
+}
+
+
+/*Descarrega pdf*/
+
+#articlePdfResizer {
+  height: auto;
+}
+
+#articlePdf.ui-widget-content {
+  border: 1px solid #f0f0f0;
+  margin: {
+    top: 15px; }
+  padding: {
+    left: 10px;
+    right: 5px; }
+  font: {
+    family: LatoRegular; }
+  a {
+    color: #e94b63;
+    &:hover {
+      color: #6d6d6d;
+    }
+  }
+}
+
+a.action {
+  font: {
+    family: LatoBold;
+    size: 0.8em;
+  }
+  line-height: 4em;
+  padding: 10px 10px 20px 40px;
+/*  background: {
+    image: url('../img/descargar.png');
+    repeat: no-repeat; } llevado a article.scss*/
+  color: #e94b63;
+  &:hover {
+    color: #6d6d6d;
+  }
+}
+
+
+/*LOGIN*/
+
+.formError {
+  color:#e94b63;
+  text-transform:uppercase;
+}
+
+#signinForm {
+  input.textField:focus, 
+  select.selectMenu:focus,
+  textarea.textArea:focus, 
+  input.uploadField:focus {
+    background-color:#F0F0F0;
+  }
+}
+
+/*Enviament articles*/
+
+#content {
+/*  ul.plain {
+    font: {
+      size: 0.7em;
+      family: LatoRegular; }
+    text-transform: uppercase;
+    background-color: #f0f0f0;
+    padding: {
+      top: 0px;
+      bottom: 0px; }
+    margin-left: 16px;
+    border-bottom: 1px solid #E94B63;
+    li {
+      display: inline;
+      color: #f0f0f0;
+      padding-left: 10px;
+      line-height: 2em;
+      a {
+        color: #e94b63;
+        padding: {
+          left: 6px;
+          right: 6px; }
+        &:hover,
+        &.activeItem,
+        &:active {
+          font-family: LatoBold;
+          background-color: #fff;
+          padding: {
+            bottom: 6px;
+            top: 6px; }
+          border-left: 1px solid #e94b63;
+          border-right: 1px solid #e94b63;
+          border-top: 1px solid #e94b63;
+        }
+      }
+    }
+  }*/
+  div#onlineSubmissions {
+    margin-left: 16px;
+    h3 {
+      margin: {
+        top: 15px;
+        bottom: 10px; }
+    }
+    p {
+      margin-top: 5px;
+      margin-bottom: 40px;
+      font-family: Bariol_regularregular;
+      color: #000;
+      a.action {
+        background-color: #E94B63;
+        border-style: none;
+        color: #FFFFFF;
+        font-family: Bariol_regularregular;
+        font-size: 0.8em;
+        letter-spacing: 1px;
+        line-height: 1.5em;
+        text-align: left;
+        text-decoration: none;
+        text-transform: uppercase;
+        word-spacing: normal;
+        padding: 3px 5px;
+        position: relative;
+        top: 16px;
+        left: 10px;
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+    div#separator {
+      display: none;
+    }
+  }
+  div#authorGuidelines,
+  div#submissionPreparationChecklist,
+  div#copyrightNotice,
+  div#privacyStatement {
+    margin-left: 16px;
+    h3 {
+      margin-top: 10px;
+    }
+    p {
+      font-family: Bariol_regularregular;
+      line-height: 1.3em;
+      margin: {
+        top: 0px;
+        bottom: 10px;}
+      a:hover {
+        color: #E94B63;
+      }
+    }
+    ul li,
+    ol li {
+      font-family: Bariol_regularregular;
+      a:hover {
+        color: #E94b63;
+      }
+    }
+  }
+  div#authorGuidelines {
+    h3 {
+      margin-top: -10px;
+    }
+  }
+} 
+
+/* backend eines de lectura */
+
+div#content {
+  #rtAdminStatus,
+  #rtAdminConfig,
+  #rtAdminManage,
+  #rtAdminSharing {
+    h3 {
+      font: {
+        family: Bariol_regularregular;
+        size: 1.6em; }
+      padding-top: 1.8em;
+    } 
+    p {
+      font: {
+        family: Bariol_regularregular; }
+    }
+    ul.plain {
+      margin-top: 10px;
+      padding-left: 0px;
+      li {
+      margin-top: 5px;
+      }
+    }
+    a {
+      font-family: bariol_regularregular;
+      color: #E94b63;
+      &:hover {
+        color: #454545;
+      }
+    }
+  }
+}

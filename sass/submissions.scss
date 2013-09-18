@@ -1,0 +1,39 @@
+/* menu horitzontal */
+
+#content ul.plain { 
+    font: { 
+      size: 0.7em; 
+      family: LatoRegular; } 
+    text-transform: uppercase; 
+    background-color: #f0f0f0; 
+    padding: { 
+      top: 0px; 
+      bottom: 0px; } 
+    margin-left: 16px; 
+    border-bottom: 1px solid #E94B63; 
+    li { 
+      display: inline; 
+      color: #f0f0f0; 
+      padding-left: 10px; 
+      line-height: 2em; 
+      a { 
+        color: #e94b63; 
+        padding: { 
+          left: 6px; 
+          right: 6px; } 
+        &:hover, 
+        &.activeItem, 
+        &:active { 
+          font-family: LatoBold; 
+          background-color: #fff; 
+          padding: { 
+            bottom: 6px; 
+            top: 6px; } 
+          border-left: 1px solid #e94b63; 
+          border-right: 1px solid #e94b63; 
+          border-top: 1px solid #e94b63; 
+        } 
+      } 
+    } 
+  }
+

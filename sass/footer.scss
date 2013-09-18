@@ -1,0 +1,114 @@
+$rosa: #e94b63;
+$link_color: #d2d2d2;
+$gray_bg: #6d6d6d;
+
+/** 
+ * Sticky footer code
+ * from: http://ryanfait.com/resources/footer-stick-to-bottom-of-page/
+ * http://css-tricks.com/snippets/css/sticky-footer/
+ */
+html, body {
+  height: 100%;
+}
+#container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -110px;
+}
+#container:after {
+  content: "";
+  display: block;
+  height: 110px;
+}
+
+
+#ictFooterWrapper {
+  & > div > div {
+    /** Cal indicar el nivell de produnditat dels div
+     * per que sino el 0.7 saplica com a factor reductor
+     * recursivament a cada nivell d'aniuament
+     */
+    font-family: "LatoRegular";
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 1px;
+    text-decoration: none;
+    line-height: 1.4em;
+    font-size: 0.7em;
+    word-spacing: normal;
+  }
+  height: 110px;
+  background-color: $gray_bg;
+  text-align: left;
+  /* traslladat el marge a #container #body
+   * per que lespai generat sigui en blanc
+   * i no el color de fons, veure educar.scss*/
+  /*margin-top: 45px;*/
+  clear:both;
+  /*position: absolute;*/
+  /*bottom: 0px;*/
+  /*left: 0px;*/
+  /*right: 0px;*/
+  #ictPreFooterWrapper{
+    background-color: $rosa;
+    padding: 8px;
+    text-align: center;
+    a {
+      color: $link_color;
+      &:hover {
+        color: #ffffff;
+      }
+    }
+    img {
+      vertical-align: middle;
+      padding: 0 4px;
+    }
+    div {
+      display: inline;
+    }
+    br {
+      display: none;
+    }
+  }
+  #footer {
+    background-color: $gray_bg;
+    width: 1016px;
+    margin: 0 auto;
+    height: 70px;
+    padding-top: 8px;
+    a {
+      color: $link_color;
+      &:hover {
+        color: $rosa;
+      }
+    }
+    .first {
+      width: 452px;
+      display:block;
+      float: left;
+      margin-left: 32px;
+      br {
+        display: none;
+      }
+    }
+    .second {
+      width: 233px;
+      display:block;
+      float: left;
+      margin-left: 32px;
+    }
+    .third {
+      display: none;
+    }
+    .fourth {
+      width: 203px;
+      display: block !important;
+      float: left;
+      margin-left: 16px;
+    }
+  }
+
+
+}
+

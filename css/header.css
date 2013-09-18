@@ -1,0 +1,270 @@
+/*header.css for EDUCAR developed by Projecte Ictineo*/
+/********* imported scss ***********/
+/***************************************************/
+/************ Common styles for Educar *************/
+/************** Projecte Ictineo *******************/
+/***************************************************/
+/**
+ * Necessitem el block d'usuari activat
+ * pero no s'ha de veure en la lateral per 
+ * que incloem en el header
+ */
+/* line 12, ../sass/header.scss */
+#sidebar #sidebarUser.block {
+  display: none;
+}
+
+/************ Header *******************/
+/* line 18, ../sass/header.scss */
+#header {
+  background-color: #454545;
+}
+
+/* line 21, ../sass/header.scss */
+#headerWrapper {
+  background-color: #454545;
+  width: 1016px;
+  height: 154px;
+  margin: 0pt auto;
+}
+
+/* line 28, ../sass/header.scss */
+.header.left {
+  margin: 0px 0px 15px 235px;
+  padding-top: 10px;
+}
+
+/* line 34, ../sass/header.scss */
+#ictRegister {
+  clear: both;
+}
+/* line 36, ../sass/header.scss */
+#ictRegister a {
+  float: right;
+  position: relative;
+  top: -23px;
+  padding-right: 16px;
+  text-align: right;
+  font-family: Bariol_regularregular;
+  font-size: 0.8em;
+  background-color: #454545;
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  text-transform: uppercase;
+}
+/* line 20, ../sass/styles_educar.scss */
+#ictRegister a:hover, #ictRegister a:active {
+  color: #e94b63;
+}
+
+/* line 46, ../sass/header.scss */
+#sidebarUser.block {
+  width: auto;
+  float: right;
+  margin: -83px 16px 0 0;
+  color: white;
+  font-family: Bariol_regularregular;
+}
+/* line 52, ../sass/header.scss */
+#sidebarUser.block.loggedIn {
+  font-size: 0.9em;
+  /*letter-spacing: 1px;*/
+  position: relative;
+  top: -4px;
+  line-height: 1em;
+  margin-top: -72px;
+  /*strong {
+    height: 35px;
+    margin-top: -3px;
+  }*/
+}
+/* line 59, ../sass/header.scss */
+#sidebarUser.block.loggedIn a {
+  font-size: 0.8em;
+  line-height: 1.3em;
+}
+/* line 67, ../sass/header.scss */
+#sidebarUser.block.loggedIn ul {
+  margin-top: 20px;
+}
+/* line 71, ../sass/header.scss */
+#sidebarUser.block.loggedIn.loggedAs {
+  margin-top: -88px;
+}
+/* line 74, ../sass/header.scss */
+#sidebarUser.block * {
+  font-weight: normal;
+  text-align: right;
+  display: block;
+}
+/* line 79, ../sass/header.scss */
+#sidebarUser.block br {
+  display: none;
+}
+/* line 82, ../sass/header.scss */
+#sidebarUser.block .textField {
+  background-color: #f0f0f0;
+  font-family: "bariol_regularregular";
+  color: #000000;
+  text-decoration: none;
+  word-spacing: normal;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  font-size: 0.8em;
+  width: 145px;
+}
+/* line 93, ../sass/header.scss */
+#sidebarUser.block input.button {
+  font-family: Bariol_regularregular;
+  font-size: 0.8em;
+  background-color: #454545;
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  border: none;
+  margin-right: -40px;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  padding-left: 0px;
+}
+/* line 20, ../sass/styles_educar.scss */
+#sidebarUser.block input.button:hover, #sidebarUser.block input.button:active {
+  color: #e94b63;
+}
+/* line 101, ../sass/header.scss */
+#sidebarUser.block a {
+  font-family: Bariol_regularregular;
+  font-size: 0.8em;
+  background-color: #454545;
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  float: right;
+  position: relative;
+  top: -18px;
+  font-size: 0.7em;
+}
+/* line 20, ../sass/styles_educar.scss */
+#sidebarUser.block a:hover, #sidebarUser.block a:active {
+  color: #e94b63;
+}
+/* line 109, ../sass/header.scss */
+#sidebarUser.block li {
+  list-style: none;
+  display: block;
+  float: none;
+  clear: both;
+}
+/* line 117, ../sass/header.scss */
+#sidebarUser.block label,
+#sidebarUser.block span.blockTitle,
+#sidebarUser.block #remember {
+  display: none;
+}
+
+/* line 123, ../sass/header.scss */
+.header.right {
+  margin: -77px 0 0 0;
+  padding-bottom: 15px;
+}
+/* line 126, ../sass/header.scss */
+.header.right .textLite {
+  margin-left: 16px;
+  width: 85px;
+}
+/* line 129, ../sass/header.scss */
+.header.right .textLite a {
+  display: block;
+  font-family: Bariol_regularregular;
+  font-size: 0.8em;
+  background-color: #454545;
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  line-height: 1.2em;
+}
+/* line 20, ../sass/styles_educar.scss */
+.header.right .textLite a:hover, .header.right .textLite a:active {
+  color: #e94b63;
+}
+
+/***************** NavBar *******************/
+/* line 140, ../sass/header.scss */
+#navbar {
+  background-color: #ffffff;
+  height: 28px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border-bottom: 1px solid #f0f0f0;
+}
+/* line 148, ../sass/header.scss */
+#navbar #login,
+#navbar #register {
+  display: none;
+}
+/* line 150, ../sass/header.scss */
+#navbar a {
+  padding: 4px 8px;
+  font-family: Bariol_boldbold;
+  font-size: 1em;
+  background-color: #ffffff;
+  color: #454545;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  margin-right: 26px;
+  margin-right: 0px;
+}
+/* line 156, ../sass/header.scss */
+#navbar a:hover, #navbar a:active, #navbar a:focus {
+  background-color: #e94b63;
+  color: #ffffff;
+}
+/* line 160, ../sass/header.scss */
+#navbar ul.menu {
+  text-align: center;
+}
+/* line 163, ../sass/header.scss */
+#navbar li {
+  text-align: center;
+  padding-bottom: 8px;
+}
+/* line 169, ../sass/header.scss */
+#navbar li.activeItem, #navbar li:hover, #navbar li:active, #navbar li:focus {
+  border-bottom: 1px solid #e94b63;
+}
+
+/*************** BreadCrumb *****************/
+/* line 176, ../sass/header.scss */
+#breadcrumb {
+  color: #e94b63;
+  font-weight: 600;
+  font-size: 0.8em;
+  font-family: "bariol_regularregular";
+  word-spacing: 0.2em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+/* line 184, ../sass/header.scss */
+#breadcrumb * {
+  color: #e94b63;
+  font-weight: 600;
+}

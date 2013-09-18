@@ -1,0 +1,438 @@
+/*importar full estils*/
+/***************************************************/
+/************ Common styles for Educar *************/
+/************** Projecte Ictineo *******************/
+/***************************************************/
+/* ample variable en funcio
+ * de laltrua de la sidebar
+ */
+/* line 8, ../sass/sidebar.scss */
+#sidebar {
+  float: right;
+}
+
+/** enganxar la barra al menu **/
+/* line 11, ../sass/sidebar.scss */
+#rightSidebar {
+  margin-top: -10px;
+}
+
+/************ Right Sidebar ***************/
+/* line 16, ../sass/sidebar.scss */
+#rightSidebar {
+  width: 234px;
+  margin-right: 16px;
+  float: right;
+  background-color: #f0f0f0;
+  /*tanca estil genèric per blocs laterals */
+}
+/* line 21, ../sass/sidebar.scss */
+#rightSidebar div.block {
+  /* obre estil genèric per blocs laterals*/
+  padding-left: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+}
+/* line 25, ../sass/sidebar.scss */
+#rightSidebar div.block span.blockTitle {
+  display: block;
+  font-family: Bariol_regularregular;
+  font-size: 0.9em;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  text-align: left;
+  text-transform: uppercase;
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 2.2em;
+  margin-top: 27px;
+  margin-left: -16px;
+  padding-left: 43px;
+  margin-left: -32px;
+  margin-bottom: 10px;
+  margin-right: -32px;
+  margin-top: 16px;
+  min-height: 32px;
+  background-image: url("../img/art.png");
+  background-repeat: no-repeat;
+}
+/* line 37, ../sass/sidebar.scss */
+#rightSidebar div.block a {
+  font-family: LatoRegular;
+  font-size: 0.9em;
+  background-color: #f0f0f0;
+  color: #e94b63;
+  text-decoration: none;
+  text-align: left;
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+}
+/* line 82, ../sass/styles_educar.scss */
+#rightSidebar div.block a:hover {
+  color: #454545;
+}
+/* line 40, ../sass/sidebar.scss */
+#rightSidebar div.block span.blockSubtitle {
+  display: none;
+}
+/* line 43, ../sass/sidebar.scss */
+#rightSidebar div.block ul {
+  list-style: none;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  margin-left: 27px;
+  /* correccio per adaptacio del diseny */
+  margin-top: -20px;
+  list-style: inherit;
+  margin: 0px;
+  margin-left: -4px;
+  color: #fbfbfb;
+}
+/* line 51, ../sass/sidebar.scss */
+#rightSidebar div.block ul li {
+  font-size: 0.9em;
+  font-family: "LatoRegular";
+  font-weight: normal;
+  background-color: none;
+  line-height: 100%;
+  padding-top: 3px;
+  padding-bottom: 0px;
+  color: #6d6d6d;
+}
+/* line 61, ../sass/sidebar.scss */
+#rightSidebar div.block ul li.highlighted, #rightSidebar div.block ul li:hover {
+  color: #e94b63;
+  background-color: #f0f0f0;
+}
+/* line 71, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block {
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+/* line 78, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block input.textField,
+#rightSidebar #sidebarNavigation.block .chzn-container,
+#rightSidebar #sidebarNavigation.block select.selectMenu {
+  width: 136px;
+  border: none;
+  margin-left: 27px;
+}
+/* line 84, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block select.selectMenu {
+  background-color: #6d6d6d;
+}
+/* line 87, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block input.textField {
+  margin-top: 13px;
+  margin-bottom: 6px;
+}
+/* line 92, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block .chzn-container {
+  width: 140px !important;
+  width: 140px;
+  height: 22px;
+  font-size: 16px;
+  /* base pel calcul de em, sobrescrivim el css per defecte del chosen */
+}
+/* line 97, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block .chzn-container .chzn-single {
+  background-image: none;
+  background-color: #6d6d6d;
+  border-radius: 0;
+  border: 0px none;
+  padding-right: 4px;
+  height: 22px;
+}
+/* line 105, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block .chzn-container .chzn-single > div, #rightSidebar #sidebarNavigation.block .chzn-container .chzn-single > div > b {
+  display: none;
+}
+/* line 108, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block .chzn-container .chzn-single span {
+  color: #fbfbfb;
+  /*font-size: 0.9em;*/
+  font-size: 13px;
+  padding-top: 3px;
+  margin-left: -2px;
+  margin-right: 4px;
+}
+/* line 117, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block .chzn-container .chzn-drop {
+  width: 140px !important;
+  width: 140px;
+  border: 0px none;
+  border-radius: 0px;
+  background-color: #6d6d6d;
+}
+/* line 123, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block .chzn-container .chzn-drop .chzn-search {
+  display: none;
+}
+/* line 126, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block .chzn-container .chzn-drop ul {
+  list-style: inherit;
+  margin: 0px;
+  margin-left: -4px;
+  color: #fbfbfb;
+  overflow: visible;
+  padding-bottom: 4px;
+}
+/* line 133, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block .chzn-container .chzn-drop ul li {
+  /*font-size: 0.9em;*/
+  font-size: 13px;
+  font-family: "LatoRegular";
+  font-weight: normal;
+  background-color: none;
+  line-height: 100%;
+  padding-top: 3px;
+  padding-bottom: 0px;
+  color: #fbfbfb;
+}
+/* line 144, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block .chzn-container .chzn-drop ul li.highlighted, #rightSidebar #sidebarNavigation.block .chzn-container .chzn-drop ul li:hover {
+  color: #e94b63;
+  background-color: #6d6d6d;
+}
+/* line 152, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block ul {
+  list-style: none;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  margin-left: 27px;
+  /* correccio per adaptacio del diseny */
+  margin-top: -20px;
+}
+/* line 157, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block a {
+  font-family: LatoRegular;
+  font-size: 0.9em;
+  background-color: #f0f0f0;
+  color: #e94b63;
+  text-decoration: none;
+  text-align: left;
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+}
+/* line 82, ../sass/styles_educar.scss */
+#rightSidebar #sidebarNavigation.block a:hover {
+  color: #454545;
+}
+/* line 160, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block span.blockTitle {
+  display: block;
+  margin-right: -16px;
+  font-family: Bariol_regularregular;
+  font-size: 0.9em;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  text-align: left;
+  text-transform: uppercase;
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 2.2em;
+  margin-top: 27px;
+  margin-left: -16px;
+  padding-left: 43px;
+  background-image: url("../img/br.png");
+  background-repeat: no-repeat;
+}
+/* line 168, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block span.blockTitle + span.blockSubtitle {
+  display: block;
+  font-family: LatoRegular;
+  font-size: 0.8em;
+  float: right;
+  margin-right: 20px;
+  margin-top: 19px;
+}
+/* line 178, ../sass/sidebar.scss */
+#rightSidebar #sidebarNavigation.block span.blockSubtitle {
+  display: none;
+}
+/* line 181, ../sass/sidebar.scss */
+#rightSidebar #notification.block {
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 186, ../sass/sidebar.scss */
+#rightSidebar #notification.block span.blockTitle {
+  display: block;
+  margin-right: -16px;
+  font-family: Bariol_regularregular;
+  font-size: 0.9em;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  text-align: left;
+  text-transform: uppercase;
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 2.2em;
+  margin-top: 27px;
+  margin-left: -16px;
+  padding-left: 43px;
+  margin-top: 16px;
+  min-height: 32px;
+  background-image: url("../img/sus.png");
+  background-repeat: no-repeat;
+}
+/* line 196, ../sass/sidebar.scss */
+#rightSidebar #notification.block ul {
+  list-style: none;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  margin-left: 27px;
+  margin-top: 10px;
+}
+/* line 200, ../sass/sidebar.scss */
+#rightSidebar #notification.block a {
+  font-family: LatoRegular;
+  font-size: 0.9em;
+  background-color: #f0f0f0;
+  color: #e94b63;
+  text-decoration: none;
+  text-align: left;
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+}
+/* line 82, ../sass/styles_educar.scss */
+#rightSidebar #notification.block a:hover {
+  color: #454545;
+}
+/* line 204, ../sass/sidebar.scss */
+#rightSidebar #custom.block {
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 20px;
+}
+/* line 210, ../sass/sidebar.scss */
+#rightSidebar #custom.block span.blockTitle {
+  display: block;
+  margin-right: -16px;
+  font-family: Bariol_regularregular;
+  font-size: 0.9em;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  text-align: left;
+  text-transform: uppercase;
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 2.2em;
+  margin-top: 27px;
+  margin-left: -16px;
+  padding-left: 43px;
+  margin-top: 16px;
+  background-image: url("../img/edi.png");
+  background-repeat: no-repeat;
+}
+/* line 219, ../sass/sidebar.scss */
+#rightSidebar #custom.block img {
+  margin-left: 0px;
+  margin-right: 14px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+/* line 226, ../sass/sidebar.scss */
+#rightSidebar #custom.block a.rediCredits img {
+  opacity: 0.8;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+}
+/* line 229, ../sass/sidebar.scss */
+#rightSidebar #custom.block a.rediCredits img:hover {
+  filter: none;
+  opacity: 1;
+}
+/* line 235, ../sass/sidebar.scss */
+#rightSidebar #sidebarRTArticleTools.block {
+  margin-bottom: 0px;
+}
+/* line 237, ../sass/sidebar.scss */
+#rightSidebar #sidebarRTArticleTools.block span.blockTitle {
+  margin-bottom: 14px;
+  margin-top: 16px;
+  display: block;
+  font-family: Bariol_regularregular;
+  font-size: 0.9em;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  text-align: left;
+  text-transform: uppercase;
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 2.2em;
+  margin-top: 27px;
+  margin-left: -16px;
+  padding-left: 43px;
+  margin-left: -32px;
+  line-height: 1.7em;
+  padding-right: 16px;
+  background-image: url("../img/listado.png");
+  background-repeat: no-repeat;
+}
+/* line 249, ../sass/sidebar.scss */
+#rightSidebar #sidebarRTArticleTools.block div.articleToolItem {
+  margin-left: 11px;
+  font-family: LatoRegular;
+  font-size: 0.9em;
+  background-color: #f0f0f0;
+  color: #e94b63;
+  text-decoration: none;
+  text-align: left;
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+  padding-bottom: 2px;
+  font-size: 0.8em;
+}
+/* line 82, ../sass/styles_educar.scss */
+#rightSidebar #sidebarRTArticleTools.block div.articleToolItem:hover {
+  color: #454545;
+}
+/* line 254, ../sass/sidebar.scss */
+#rightSidebar #sidebarRTArticleTools.block div.articleToolItem img {
+  display: none;
+}
+/* line 257, ../sass/sidebar.scss */
+#rightSidebar #sidebarRTArticleTools.block div.articleToolItem a {
+  color: #e94b63;
+  font-size: 1em;
+}
+/* line 260, ../sass/sidebar.scss */
+#rightSidebar #sidebarRTArticleTools.block div.articleToolItem a:hover {
+  color: #454545;
+}
+/* line 264, ../sass/sidebar.scss */
+#rightSidebar #sidebarRTArticleTools.block div.articleToolItem span {
+  font-size: 0.8em;
+  color: #000000;
+}
+
+/**
+ * Serach navigation
+ */
+/* line 279, ../sass/sidebar.scss */
+#sidebarNavigation input.button {
+  background-image: url("../img/flecha_r.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: 0 0;
+  color: transparent;
+  border: 0px;
+  position: relative;
+  float: right;
+  top: -19px;
+  right: -19px;
+  width: 10px;
+  height: 11px;
+}

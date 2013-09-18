@@ -1,0 +1,80 @@
+/*ACERCA DE*/
+
+#content {
+  /*padding-left: 0px;*/
+  margin-top: 16px;
+}
+
+#content h3 {
+  color:#e94b63;
+  font-size:1.2em;
+  font-family:LatoBold;
+  padding-bottom:0.5em;
+  margin-top: 10px;
+  /*margin-bottom: -22px;*/
+}
+#content {
+  #mailingAddress,
+  #principalContact,
+  #supportContact {
+    h3 {
+      margin-bottom: -22px;
+    }
+  }
+  h4 {
+    padding-top: 0.4em;
+    font-size: 19px;
+  }
+}
+
+a:link {
+  color:#6d6d6d;
+}
+
+#aboutPeople,
+#aboutPolicies,
+#aboutSubmissions,
+#aboutOther {
+  width:30%;
+  float:left;
+  padding-bottom:1em;
+  padding-right:2em;
+  /*margin-left: 16px;*/
+  ul.plain {
+    font-size: 1em;
+    text-transform: none;
+    background-color: #ffffff;
+    margin-left: 0px;
+    border-style: none;
+    li {
+      display: block;
+      padding-left: 0px;
+      line-height: 1em;
+      a {
+        margin-left: -16px;
+        background-color: white;
+        font-family: LatoLight;
+        background-color: #fff;
+        color: #000;
+        text-decoration: none;
+        word-spacing: 0.2em;
+        text-align: left;
+        letter-spacing: 0;
+        line-height: 1.9em;
+        font-size: 1em;
+        padding: 0px;
+      } 
+      a:hover {
+        color: #454545;
+        border-style: none;
+      }
+    }
+  }
+}
+#authorGuidelines {
+  li {
+    margin-left: 20px;
+    padding: 4px 0;
+    list-style-image: url('../img/flecha_r.png');
+  }
+}

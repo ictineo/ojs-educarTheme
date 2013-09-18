@@ -1,0 +1,127 @@
+/** 
+ * Sticky footer code
+ * from: http://ryanfait.com/resources/footer-stick-to-bottom-of-page/
+ * http://css-tricks.com/snippets/css/sticky-footer/
+ */
+/* line 10, ../sass/footer.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 13, ../sass/footer.scss */
+#container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -110px;
+}
+
+/* line 19, ../sass/footer.scss */
+#container:after {
+  content: "";
+  display: block;
+  height: 110px;
+}
+
+/* line 26, ../sass/footer.scss */
+#ictFooterWrapper {
+  height: 110px;
+  background-color: #6d6d6d;
+  text-align: left;
+  /* traslladat el marge a #container #body
+   * per que lespai generat sigui en blanc
+   * i no el color de fons, veure educar.scss*/
+  /*margin-top: 45px;*/
+  clear: both;
+  /*position: absolute;*/
+  /*bottom: 0px;*/
+  /*left: 0px;*/
+  /*right: 0px;*/
+}
+/* line 27, ../sass/footer.scss */
+#ictFooterWrapper > div > div {
+  /** Cal indicar el nivell de produnditat dels div
+   * per que sino el 0.7 saplica com a factor reductor
+   * recursivament a cada nivell d'aniuament
+   */
+  font-family: "LatoRegular";
+  font-size: 16px;
+  color: #000;
+  letter-spacing: 1px;
+  text-decoration: none;
+  line-height: 1.4em;
+  font-size: 0.7em;
+  word-spacing: normal;
+}
+/* line 53, ../sass/footer.scss */
+#ictFooterWrapper #ictPreFooterWrapper {
+  background-color: #e94b63;
+  padding: 8px;
+  text-align: center;
+}
+/* line 57, ../sass/footer.scss */
+#ictFooterWrapper #ictPreFooterWrapper a {
+  color: #d2d2d2;
+}
+/* line 59, ../sass/footer.scss */
+#ictFooterWrapper #ictPreFooterWrapper a:hover {
+  color: #ffffff;
+}
+/* line 63, ../sass/footer.scss */
+#ictFooterWrapper #ictPreFooterWrapper img {
+  vertical-align: middle;
+  padding: 0 4px;
+}
+/* line 67, ../sass/footer.scss */
+#ictFooterWrapper #ictPreFooterWrapper div {
+  display: inline;
+}
+/* line 70, ../sass/footer.scss */
+#ictFooterWrapper #ictPreFooterWrapper br {
+  display: none;
+}
+/* line 74, ../sass/footer.scss */
+#ictFooterWrapper #footer {
+  background-color: #6d6d6d;
+  width: 1016px;
+  margin: 0 auto;
+  height: 70px;
+  padding-top: 8px;
+}
+/* line 80, ../sass/footer.scss */
+#ictFooterWrapper #footer a {
+  color: #d2d2d2;
+}
+/* line 82, ../sass/footer.scss */
+#ictFooterWrapper #footer a:hover {
+  color: #e94b63;
+}
+/* line 86, ../sass/footer.scss */
+#ictFooterWrapper #footer .first {
+  width: 452px;
+  display: block;
+  float: left;
+  margin-left: 32px;
+}
+/* line 91, ../sass/footer.scss */
+#ictFooterWrapper #footer .first br {
+  display: none;
+}
+/* line 95, ../sass/footer.scss */
+#ictFooterWrapper #footer .second {
+  width: 233px;
+  display: block;
+  float: left;
+  margin-left: 32px;
+}
+/* line 101, ../sass/footer.scss */
+#ictFooterWrapper #footer .third {
+  display: none;
+}
+/* line 104, ../sass/footer.scss */
+#ictFooterWrapper #footer .fourth {
+  width: 203px;
+  display: block !important;
+  float: left;
+  margin-left: 16px;
+}

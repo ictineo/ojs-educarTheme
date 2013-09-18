@@ -1,0 +1,10 @@
+/* line 2, ../sass/hide_sidebar.scss */
+#sidebar,
+#rightSidebar {
+  display: none;
+}
+
+/* line 5, ../sass/hide_sidebar.scss */
+#content > * {
+  width: auto;
+}

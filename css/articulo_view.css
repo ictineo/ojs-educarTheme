@@ -1,0 +1,25 @@
+/* line 1, ../sass/articulo_view.scss */
+p a.action {
+  background-image: none;
+}
+
+/* line 5, ../sass/articulo_view.scss */
+#content > h3 {
+  margin-left: 9px;
+  top: 26px;
+  position: relative;
+}
+/* line 9, ../sass/articulo_view.scss */
+#content > h3 + ul.plain {
+  margin-left: -30px;
+  top: 26px;
+  position: relative;
+}
+/* line 15, ../sass/articulo_view.scss */
+#content a.file + div.separator + h3 {
+  margin-left: 38px;
+}
+/* line 17, ../sass/articulo_view.scss */
+#content a.file + div.separator + h3 + ul.plain {
+  margin-left: 0px;
+}

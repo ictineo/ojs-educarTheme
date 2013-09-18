@@ -1,0 +1,29 @@
+#body #main {
+  form {
+    font-size: 0.9em;
+    input.textField,
+    select {
+      font-family: bariol_regularregular;
+      margin-bottom: 2px;
+    }
+    input.textField[name=search] {
+      width: 23em;
+    }
+    input.button {
+      font-size: 1em;
+      margin-top: 8px;
+      &:hover {
+        color: #000;
+      }
+    }
+    select {
+      width: auto;
+    }
+    .filter {
+      padding-bottom: 8px;
+    }
+    ul.filter {
+      margin-top: 0px;
+    }
+  }
+}

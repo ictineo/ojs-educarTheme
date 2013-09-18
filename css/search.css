@@ -1,0 +1,273 @@
+/*BÚSQUEDA*/
+/* line 5, ../sass/search.scss */
+div,
+tbody {
+  font-family: bariol_regularregular;
+}
+
+/* line 9, ../sass/search.scss */
+#advancedSearch h4 {
+  margin-left: -16px;
+}
+
+/* line 13, ../sass/search.scss */
+#advancedSearch td.formSubLabel h4 {
+  margin-left: 0px;
+}
+
+/* line 19, ../sass/search.scss */
+#advancedSearch table.data tr td {
+  padding: 0px;
+  padding-bottom: 8px;
+}
+/* line 22, ../sass/search.scss */
+#advancedSearch table.data tr td.label {
+  width: 33%;
+  padding-left: 16px;
+}
+/* line 26, ../sass/search.scss */
+#advancedSearch table.data tr td h4 {
+  padding-top: 20px;
+}
+
+/* line 35, ../sass/search.scss */
+#content h4 {
+  font-family: Bariol_boldbold;
+  font-size: 1.2em;
+  color: #E94B63;
+}
+
+/* line 41, ../sass/search.scss */
+#content ul {
+  list-style: none;
+  padding-top: 0.5em;
+}
+/* line 44, ../sass/search.scss */
+#content ul li {
+  padding-top: 0.2em;
+  padding-left: 1.5em;
+  background-image: url("../img/flecha_r.png");
+  background-repeat: no-repeat;
+  background-position: 0 8px;
+  margin-left: 1em;
+}
+
+/* line 53, ../sass/search.scss */
+input.button {
+  background-color: #E94B63;
+  font-family: Bariol_regularregular;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  word-spacing: normal;
+  color: #ffffff;
+  border-style: none;
+}
+/* line 67, ../sass/search.scss */
+input.button:hover {
+  color: #000000;
+}
+
+/*Login*/
+/* line 76, ../sass/search.scss */
+#signinTable {
+  text-align: center;
+  margin-left: 5em;
+}
+/* line 79, ../sass/search.scss */
+#signinTable td.label {
+  color: #E94B63;
+  font-family: LatoRegular;
+  font-size: 1em;
+  width: 36%;
+  text-align: right;
+  padding-right: 0px;
+}
+
+/* line 89, ../sass/search.scss */
+p {
+  color: #E94B63;
+  /*a:visited {
+    color: #e94b63;
+  }*/
+}
+/* line 91, ../sass/search.scss */
+p a:link {
+  font-family: LatoRegular;
+  color: #E94B63;
+  padding-bottom: 0.5em;
+}
+/* line 96, ../sass/search.scss */
+p a:hover {
+  color: #6d6d6d;
+}
+
+/*USER*/
+/* line 108, ../sass/search.scss */
+#myJournals,
+#myAccount {
+  padding-bottom: 1em;
+}
+/* line 110, ../sass/search.scss */
+#myJournals h3,
+#myAccount h3 {
+  padding-bottom: 0.2em;
+  padding-top: 1.8em;
+}
+/* line 112, ../sass/search.scss */
+#myJournals a:link,
+#myAccount a:link {
+  color: #e94b63;
+}
+/* line 113, ../sass/search.scss */
+#myJournals a:hover,
+#myAccount a:hover {
+  color: #454545;
+}
+
+/* line 121, ../sass/search.scss */
+#myAccount h3,
+#myJournals h3 {
+  font-family: bariol_regularregular;
+}
+/* line 122, ../sass/search.scss */
+#myAccount tr td,
+#myJournals tr td {
+  /* width:10%;*/
+  padding-right: 0.5em;
+  padding-top: 0.4em;
+}
+
+/*#myJournals tr > td {
+  width:25%;
+}*/
+/* line 131, ../sass/search.scss */
+#myAccount ul li {
+  background-image: none;
+}
+
+/**
+ * chozen
+ */
+/* line 139, ../sass/search.scss */
+#content #advancedSearch {
+  margin-top: 28px;
+}
+/* line 143, ../sass/search.scss */
+#content #advancedSearch #selMHN_chzn {
+  width: 128px;
+}
+/* line 146, ../sass/search.scss */
+#content #advancedSearch .chzn-container-single .chzn-single span {
+  color: #FBFBFB;
+  width: auto;
+}
+/* line 150, ../sass/search.scss */
+#content #advancedSearch .chzn-container {
+  width: 28%;
+  width: 28% !important;
+}
+/* line 153, ../sass/search.scss */
+#content #advancedSearch .chzn-container .chzn-single {
+  background-color: #6D6D6D;
+  background-image: none;
+  border: 0 none;
+  border-radius: 0 0 0 0;
+  height: 22px;
+  padding-right: 4px;
+}
+/* line 160, ../sass/search.scss */
+#content #advancedSearch .chzn-container .chzn-container .chzn-drop {
+  background-color: #6D6D6D;
+  border: 0 none;
+  border-radius: 0 0 0 0;
+  /*    width: 140px !important;*/
+}
+/* line 167, ../sass/search.scss */
+#content #advancedSearch .chzn-container input.textField,
+#content #advancedSearch .chzn-container .chzn-container,
+#content #advancedSearch .chzn-container select.selectMenu {
+  /*      width: 136px;*/
+  /*border: none;*/
+  margin-left: 27px;
+}
+/* line 173, ../sass/search.scss */
+#content #advancedSearch .chzn-container select.selectMenu {
+  background-color: #6d6d6d;
+}
+/* line 176, ../sass/search.scss */
+#content #advancedSearch .chzn-container input.textField {
+  margin-top: 13px;
+  margin-bottom: 6px;
+}
+/* line 182, ../sass/search.scss */
+#content #advancedSearch .chzn-container {
+  /*width: 140px !important;
+  /*      width: 140px;*/
+  height: 22px;
+  font-size: 16px;
+  /* base pel calcul de em, sobrescrivim el css per defecte del chosen */
+}
+/* line 187, ../sass/search.scss */
+#content #advancedSearch .chzn-container .chzn-single {
+  background-image: none;
+  background-color: #6d6d6d;
+  border-radius: 0;
+  /*        border: 0px none;*/
+  padding-right: 4px;
+  height: 22px;
+}
+/* line 195, ../sass/search.scss */
+#content #advancedSearch .chzn-container .chzn-single > div, #content #advancedSearch .chzn-container .chzn-single > div > b {
+  display: none;
+}
+/* line 198, ../sass/search.scss */
+#content #advancedSearch .chzn-container .chzn-single span {
+  color: #fbfbfb;
+  font-size: 0.9em;
+  margin-right: 4px;
+}
+/* line 204, ../sass/search.scss */
+#content #advancedSearch .chzn-container .chzn-drop {
+  /*       width: 140px !important;*/
+  /*        width: 140px;*/
+  /*       border: 0px none;*/
+  border-radius: 0px;
+  background-color: #6d6d6d;
+  width: 100%;
+  width: 100% !important;
+}
+/* line 212, ../sass/search.scss */
+#content #advancedSearch .chzn-container .chzn-drop .chzn-search {
+  display: none;
+}
+/* line 215, ../sass/search.scss */
+#content #advancedSearch .chzn-container .chzn-drop ul.chzn-results {
+  list-style: none;
+  margin: 0px;
+  margin-left: -4px;
+  color: #fbfbfb;
+  background-image: none;
+}
+/* line 221, ../sass/search.scss */
+#content #advancedSearch .chzn-container .chzn-drop ul.chzn-results li {
+  font-size: 0.9em;
+  font-family: "LatoRegular";
+  font-weight: normal;
+  background-color: none;
+  line-height: 100%;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  background-image: none;
+  padding-left: 10px;
+  margin-left: 0px;
+  padding-right: 8px;
+}
+/* line 235, ../sass/search.scss */
+#content #advancedSearch .chzn-container .chzn-drop ul.chzn-results li.highlighted, #content #advancedSearch .chzn-container .chzn-drop ul.chzn-results li:hover {
+  color: #e94b63;
+  background-color: #6d6d6d;
+}

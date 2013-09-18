@@ -1,0 +1,24 @@
+/* line 3, ../sass/searchAuthors.scss */
+div#main div#content div#authors {
+  font-size: 0.9em;
+}
+/* line 5, ../sass/searchAuthors.scss */
+div#main div#content div#authors div {
+  font-size: 1.12em;
+}
+/* line 8, ../sass/searchAuthors.scss */
+div#main div#content div#authors a {
+  font-size: 1.12em;
+}
+/* line 10, ../sass/searchAuthors.scss */
+div#main div#content div#authors a:hover {
+  color: #6d6d6d;
+}
+/* line 14, ../sass/searchAuthors.scss */
+div#main div#content div#authors strong ~ a {
+  font-size: 1em;
+}
+/* line 17, ../sass/searchAuthors.scss */
+div#main div#content div#authors h3 {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,294 @@
+/*importar full estils*/
+
+@import "styles_educar";
+
+/* ample variable en funcio
+ * de laltrua de la sidebar
+ */
+#sidebar {float: right}
+
+/** enganxar la barra al menu **/
+#rightSidebar {
+  margin-top: -10px;
+}
+/************ Right Sidebar ***************/
+
+#rightSidebar {
+  width: 234px;
+  margin-right: 16px;
+  float: right;
+  background-color: #f0f0f0;
+  div.block {  /* obre estil genèric per blocs laterals*/
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    span.blockTitle {
+      display: block;
+      @include right_menu;
+      margin-left: -32px;
+      margin-bottom: 10px;
+      margin-right: -32px;
+      margin-top: 16px;
+      min-height: 32px;
+      background: {
+        image: url('../img/art.png');
+        repeat: no-repeat; }
+    } 
+    a {
+      @include r_menu_ul_a;
+    }
+    span.blockSubtitle {
+      display: none;
+    }
+    ul {
+      @include r_menu_ul;
+      /* correccio per adaptacio del diseny */
+      margin-top: -20px;
+      list-style: inherit;
+      margin: 0px;
+      margin-left: -4px;
+      color: #fbfbfb;
+      li {
+        font-size: 0.9em;
+        font-family: "LatoRegular";
+        font-weight: normal;
+        background-color: none;
+        line-height: 100%;
+        padding-top: 3px;
+        padding-bottom: 0px;
+      color: #6d6d6d;
+        &.highlighted,
+        &:hover {
+          color: #e94b63;
+          background-color: #f0f0f0;
+        }
+      }
+    }
+  } /*tanca estil genèric per blocs laterals */
+
+
+
+  #sidebarNavigation.block {
+    padding: {
+      left: 0;
+      bottom: 0;
+      right: 0; }
+    input.textField,
+    .chzn-container,
+    select.selectMenu {
+      width: 136px;
+      border: none;
+      margin: {
+        left: 27px; }
+    }
+    select.selectMenu {
+      background-color: #6d6d6d;
+    }
+    input.textField {
+      margin: {
+        top: 13px;
+        bottom: 6px; }
+    }
+    .chzn-container {
+      width: 140px !important;
+      width: 140px;
+      height: 22px;
+      font-size: 16px; /* base pel calcul de em, sobrescrivim el css per defecte del chosen */
+      .chzn-single {
+        background-image: none;
+        background-color: #6d6d6d;
+        border-radius: 0;
+        border: 0px none;
+        padding-right: 4px;
+        height: 22px;
+        & > div,
+        & > div > b {
+          display: none;
+        }
+        span {
+          color: #fbfbfb;
+          /*font-size: 0.9em;*/
+          font-size: 13px;
+          padding-top: 3px;
+          margin-left: -2px;
+          margin-right: 4px;
+        } 
+      }
+      .chzn-drop {
+        width: 140px !important;
+        width: 140px;
+        border: 0px none;
+        border-radius: 0px;
+        background-color: #6d6d6d;
+        .chzn-search {
+          display: none;
+        }
+        ul {
+          list-style: inherit;
+          margin: 0px;
+          margin-left: -4px;
+          color: #fbfbfb;
+          overflow: visible;
+          padding-bottom: 4px;
+          li {
+            /*font-size: 0.9em;*/
+            font-size: 13px;
+            font-family: "LatoRegular";
+            font-weight: normal;
+            background-color: none;
+            line-height: 100%;
+            padding-top: 3px;
+            padding-bottom: 0px;
+            color: #fbfbfb;
+            &.highlighted,
+            &:hover {
+              color: #e94b63;
+              background-color: #6d6d6d;
+            }
+          }
+        }
+      }
+    }
+    ul {
+      @include r_menu_ul;
+      /* correccio per adaptacio del diseny */
+      margin-top: -20px;
+    }
+    a {
+      @include r_menu_ul_a;
+    }
+    span.blockTitle {
+      display: block;
+      margin-right: -16px;
+      @include right_menu;
+      background: {
+        image: url('../img/br.png');
+        repeat: no-repeat; }
+    }
+    span.blockTitle + span.blockSubtitle {
+      display: block;
+      font: {
+        family: LatoRegular;
+        size: 0.8em; }
+      float: right;
+      margin: {
+        right: 20px;
+        top: 19px;}
+   }  
+    span.blockSubtitle {
+      display: none; }
+  }
+  #notification.block {
+    padding: {
+      bottom: 0;
+      left: 0;
+      right: 0; }
+    span.blockTitle {
+      display: block;
+      margin-right: -16px;
+      @include right_menu;
+      margin-top: 16px;
+      min-height: 32px;
+      background: {
+        image: url('../img/sus.png');
+        repeat: no-repeat; }
+    }
+    ul {
+      @include r_menu_ul;
+      margin-top: 10px;
+    }
+    a {
+      @include r_menu_ul_a;
+    }
+  }
+  #custom.block {
+    padding: {
+      bottom: 0;
+      left: 0;
+      right: 0; }
+    margin-bottom: 20px;
+    span.blockTitle {
+      display: block;
+      margin-right: -16px;
+      @include right_menu;
+      margin-top: 16px;
+      background: {
+        image: url('../img/edi.png');
+        repeat: no-repeat; }
+    }
+    img {
+      margin: {
+        left: 0px;
+        right: 14px; 
+        top: 8px;
+        bottom: 0px; }
+    }
+    a.rediCredits img {
+      opacity: 0.8;
+      filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+      &:hover {
+        filter: none;
+        opacity: 1;
+      }
+    }
+  }
+  #sidebarRTArticleTools.block {
+    margin-bottom: 0px;
+    span.blockTitle {
+      margin-bottom: 14px;
+      margin-top: 16px;
+      display: block;
+      @include right_menu;
+      margin-left: -32px;
+      line-height: 1.7em;
+      padding-right: 16px;
+      background: {
+        image: url('../img/listado.png');
+        repeat: no-repeat; }
+    }
+    div.articleToolItem {
+      margin-left: 11px;
+      @include r_menu_ul_a;
+      padding-bottom: 2px;
+      font-size: 0.8em;
+      img {
+      display: none;
+      }
+      a {
+        color: #e94b63;
+        font-size: 1em;
+        &:hover {
+        color: #454545;
+        }
+      }  
+      span {
+        font-size: 0.8em;
+        color: #000000;
+      }
+    }
+  }
+}
+
+
+
+/**
+ * Serach navigation
+ */
+
+#sidebarNavigation {
+  input.button {
+    background:{
+      image: url('../img/flecha_r.png');
+      repeat: no-repeat;
+      color: transparent;
+      position: 0 0; }
+    color: transparent;
+    border: 0px;
+    position: relative;
+    float: right;
+    top: -19px;
+    right: -19px;
+    width:10px;
+    height: 11px;
+  }
+}

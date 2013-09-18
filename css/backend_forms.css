@@ -1,0 +1,35 @@
+/* line 2, ../sass/backend_forms.scss */
+#body #main form {
+  font-size: 0.9em;
+}
+/* line 5, ../sass/backend_forms.scss */
+#body #main form input.textField,
+#body #main form select {
+  font-family: bariol_regularregular;
+  margin-bottom: 2px;
+}
+/* line 9, ../sass/backend_forms.scss */
+#body #main form input.textField[name=search] {
+  width: 23em;
+}
+/* line 12, ../sass/backend_forms.scss */
+#body #main form input.button {
+  font-size: 1em;
+  margin-top: 8px;
+}
+/* line 15, ../sass/backend_forms.scss */
+#body #main form input.button:hover {
+  color: #000;
+}
+/* line 19, ../sass/backend_forms.scss */
+#body #main form select {
+  width: auto;
+}
+/* line 22, ../sass/backend_forms.scss */
+#body #main form .filter {
+  padding-bottom: 8px;
+}
+/* line 25, ../sass/backend_forms.scss */
+#body #main form ul.filter {
+  margin-top: 0px;
+}

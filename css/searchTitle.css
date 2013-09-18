@@ -1,0 +1,81 @@
+/* line 3, ../sass/searchTitle.scss */
+#results table.listing {
+  color: #E94B63;
+  font-family: LatoRegular;
+  font-size: 0.9em;
+  line-height: 1.2em;
+  padding-right: 30px;
+  text-align: left;
+  text-decoration: none;
+  word-spacing: normal;
+}
+/* line 12, ../sass/searchTitle.scss */
+#results table.listing tr.heading {
+  line-height: 1.3em;
+  font-size: 1.1em;
+}
+/* line 16, ../sass/searchTitle.scss */
+#results table.listing tr:last-of-type {
+  font-family: Bariol_regularregular;
+  color: #000000;
+}
+/* line 20, ../sass/searchTitle.scss */
+#results table.listing tr:last-of-type a {
+  color: #E94B63;
+  font-family: Bariol_regularregular;
+}
+/* line 23, ../sass/searchTitle.scss */
+#results table.listing tr:last-of-type a:hover {
+  color: #6d6d6d;
+}
+/* line 28, ../sass/searchTitle.scss */
+#results table.listing td[align="right"] {
+  width: 17%;
+}
+/* line 31, ../sass/searchTitle.scss */
+#results table.listing td:first-of-type {
+  width: 40%;
+  padding-right: 10px;
+}
+/* line 35, ../sass/searchTitle.scss */
+#results table.listing td:nth-of-type(2) {
+  padding-left: 10px;
+  width: 40%;
+}
+/* line 39, ../sass/searchTitle.scss */
+#results table.listing tr td[colspan="3"] {
+  font-family: LatoLight;
+  font-style: none !important;
+  font-size: 0.9em;
+  color: #454545;
+  padding-top: 4px;
+  padding-right: 130px;
+  padding-bottom: 10px;
+  padding-left: 299px !important;
+  line-height: 1.2em;
+}
+/* line 52, ../sass/searchTitle.scss */
+#results table.listing a {
+  color: #000000;
+  font-family: LatoItalic;
+  font-size: 1em;
+  line-height: 1.1em;
+}
+/* line 57, ../sass/searchTitle.scss */
+#results table.listing a:hover {
+  color: #6d6d6d;
+}
+/* line 61, ../sass/searchTitle.scss */
+#results table.listing a.file {
+  font-size: 0.9em;
+  display: block;
+  font-family: Bariol_regularregular;
+  text-transform: none;
+  float: right;
+}
+/* line 68, ../sass/searchTitle.scss */
+#results table.listing tr td[colspan="3"].separator {
+  border-top: 1px solid #f0f0f0;
+  line-height: 0px;
+  padding-bottom: 5px;
+}

@@ -1,0 +1,188 @@
+/*header.css for EDUCAR developed by Projecte Ictineo*/
+
+/********* imported scss ***********/
+
+@import "styles_educar";
+
+/**
+ * Necessitem el block d'usuari activat
+ * pero no s'ha de veure en la lateral per 
+ * que incloem en el header
+ */
+#sidebar #sidebarUser.block {
+  display: none;
+}
+
+/************ Header *******************/
+
+#header {
+  background-color: #454545;
+}
+#headerWrapper {
+  background-color: #454545;
+  width: 1016px;
+  height: 154px;
+  margin: 0pt auto;
+}
+
+.header.left {
+  margin: 0px 0px 15px 235px;
+  padding: {
+    top: 10px; }
+}  
+
+#ictRegister {
+  clear: both;
+  a {
+    float: right;
+    position: relative;
+    top: -23px;
+    padding-right: 16px;
+    text-align: right;
+    @include header_menus; 
+    text-transform: uppercase;
+  }
+}
+#sidebarUser.block {
+  width: auto;
+  float: right;
+  margin: -83px 16px 0 0;
+  color: white;
+  font-family: Bariol_regularregular;
+  &.loggedIn {
+    font-size: 0.9em;
+    /*letter-spacing: 1px;*/
+    position: relative;
+    top: -4px;
+    line-height: 1em;
+    margin-top: -72px;
+    a {
+      font-size: 0.8em;
+      line-height: 1.3em;
+    }
+    /*strong {
+      height: 35px;
+      margin-top: -3px;
+    }*/
+    ul {
+      margin-top: 20px;
+    }
+  }
+  &.loggedIn.loggedAs {
+    margin-top: -88px;
+  }
+  * {
+    font-weight: normal;
+    text-align: right;
+    display: block;
+  }
+  br {
+    display: none;
+  }
+  .textField {
+    background-color: #f0f0f0; 
+    font-family: "bariol_regularregular";
+    color: #000000;
+    text-decoration: none;
+    word-spacing: normal;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    font-size: 0.8em;
+    width: 145px; }
+  input.button {
+    @include header_menus;
+    border: none;
+    margin-right: -40px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    padding-left: 0px;
+  }
+  a {
+    @include header_menus;
+    text-transform: uppercase;
+    float: right;
+    position: relative;
+    top: -18px;
+    font-size: 0.7em;
+  }
+  li {
+    list-style: none;
+    display: block;
+    float: none;
+    clear: both;
+  }
+  label,
+  span.blockTitle,
+  #remember {
+    display: none; }
+}
+
+
+
+.header.right {
+  margin: -77px 0 0 0;
+  padding-bottom: 15px;
+  .textLite {
+    margin-left: 16px;
+    width: 85px;
+    a {
+      display: block;
+      @include header_menus;
+      line-height: 1.2em;
+    }  
+  }
+}
+
+
+/***************** NavBar *******************/
+
+#navbar {
+  background-color: #ffffff;
+  height: 28px;
+  margin: {
+    bottom: 10px;
+    top: 5px; }
+  border-bottom: 1px solid #f0f0f0;
+  #login,
+  #register {
+    display: none; }
+  a {
+    padding: 4px 8px;
+    @include nav_menu;
+    margin-right: 0px;
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: #e94b63; 
+      color: #ffffff; } 
+  }
+  ul.menu {
+    text-align: center;
+  }
+  li {
+    text-align: center;
+    padding-bottom: 8px;
+    &.activeItem,
+    &:hover,
+    &:active,
+    &:focus {
+        border-bottom:1px solid #e94b63; }
+  }
+}
+
+
+/*************** BreadCrumb *****************/
+#breadcrumb {
+  color: #e94b63;
+  font-weight: 600;
+  font-size: 0.8em;
+  font-family: "bariol_regularregular";
+  word-spacing: 0.2em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  * {
+    color: #e94b63;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,230 @@
+/********************* Pagina de registre ********************/
+/** Desenvolupat per Projecte Ictineo per la revista Educar **/
+
+textarea {
+  resize: none;
+}
+
+
+#content form {
+  p {
+    color: #000000;
+  }
+  a {
+    color: #e94b63;
+    &:hover {
+      color: #6d6d6d;
+    }
+  }
+  a.close {
+      display: inline;
+    }
+  h3 {
+    color: #E94B63;
+    font: {
+      family: bariol_boldbold;
+      size: 1.2em; }
+    padding-top: 10px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  #privacyStatement {
+    h3 {
+      font-size: 1em;
+    }
+    p {
+      font-size: 0.9em;
+    }
+  }
+}
+
+table.data td.label {
+  width: 25%;
+  text-align: right;
+  float: left;
+  padding-left: 0px;
+}
+
+#body table * {
+  display: block;
+}
+
+table.data tr {
+  clear: both;
+}
+#body table.data tr {
+  &:nth-of-type(3),
+  &:nth-of-type(5) {
+    /*display: none;*/
+    height: 0px;
+    float: right;
+    width: 100%;
+  }
+}
+
+table.data td.value {
+  float: left;
+  width: 72%;
+ /* font: {
+    family: Bariol_boldbold;
+    size: 0.8em; }
+  line-height: 0.9em;
+  margin-left: 16px;
+  padding-bottom: 1em;/*des de font, linies estil text per l'exemple de les inicials...*/
+ /* * {
+    line-height: 1em;
+    margin-left: 0;
+  }*/
+  #languageSelector,
+  #username,
+  #password,
+  #password2,
+  #captcha,
+  #salutation,
+  #firstName,
+  #middleName,
+  #lastName,
+  #initials,
+  #gender,
+  textarea.textArea,
+  #signature,
+  #email,
+  #confirmEmail,
+  #userUrl,
+  #phone,
+  #fax,
+/*  #mailingAdress_parent,*/
+  #country {
+/*  #biography_tbl,*/
+    float: left;
+    width: 45%;
+    margin: {
+      left: 30px;
+      right: 3px; }
+  }
+  #formLocale {
+    width: 103%;
+  }
+  #gender {
+    width: 46%;
+  }
+  #captcha {
+    margin-top: -32px;
+  }
+  #email {
+    margin-right: 14px;
+  }
+  .instruct {
+    font: {
+      family: Bariol_regularregular;
+      size: 0.8em; }
+    line-height: 0.9em;
+    float: left;
+    width: 45%;
+    margin-left: 16px;
+  /*  padding-bottom: 1em;*/
+  } 
+  > img {
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  img + br + span.instruct {
+    float: right;
+    margin-top: 10px;
+  }
+  textarea + br + span.instruct {
+    float: right;
+    margin-top: -116px;
+  }
+  a.action {
+    font: {
+      family: Bariol_boldbold;
+      size: 0.8em; }
+    line-height: 0.9em;
+    text-transform: none;
+    padding: 0;
+  }
+  input#sendPassword,
+  input#registerAsReader,
+  input#registerAsAuthor {
+    margin: {
+      left: 30px;
+      top: 6px;
+      right: 16px; }
+    float: left;
+    + label {
+      font: {
+        family: Bariol_regularregular;
+        size: 0.8em; }
+      line-height: 1.7em;
+      display: inline;
+    }
+  }
+  input#userLocales-ca_ES,
+  input#userLocales-en_US,
+  input#userLocales-es_ES {
+    display: inline;
+    margin-left: 30px;
+  }
+  
+  input#userLocales-ca_ES + label,
+  input#userLocales-en_US + label,
+  input#userLocales-es_ES + label {
+    display: inline;
+    margin-left: 16px;
+    font: {
+      family: Bariol_regularregular;
+      size: 0.8em; }
+  }
+  #reviewerInterestsContainer {
+    margin-top: 10px;
+    .desc {
+      width: 150px;
+      float: left;
+      margin-left: -184px;
+      margin-top: -5px;
+    }
+    .interests {
+      margin-top: 10px;
+    }
+  }
+}
+
+table.data td.instruct {
+  font: {
+    family: Bariol_regularregular;
+    size: 0.8em; }
+  line-height: 0.9em;
+  float: right;
+  position: relative;
+  top: -60px;
+  width: 32.9%;
+  padding-bottom: 0;
+}
+
+#body table.data td.value span.mceEditor {
+  table {
+  display: table;
+  margin-left: 30px;
+  }
+  tr {
+    display: table-row;
+  }
+  td {
+    display: table-cell;
+  }
+}
+
+#content ul li {
+  background-image: none;
+}
+
+ul.tagit li.tagit-choice {
+  background-color: #F0F0F0;
+  border-style: none;
+  &:hover {
+    border: 1px solid #6d6d6d;
+    background-color: #F0F0F0;
+  }
+}

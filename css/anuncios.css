@@ -1,0 +1,97 @@
+/*Anuncios*/
+/* line 3, ../sass/anuncios.scss */
+table.announcements tr {
+  /*padding-bottom:0.5em;*/
+  /*margin-bottom:0.5em;*/
+}
+
+/* line 8, ../sass/anuncios.scss */
+#content td.title h4 {
+  font-family: LatoBoldItalic;
+  color: #000000;
+  text-decoration: none;
+  word-spacing: normal;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: 1.2em;
+  font-size: 1em;
+  padding-top: 1em;
+}
+
+/* line 22, ../sass/anuncios.scss */
+td.description,
+td.posted,
+td.more a {
+  font-family: LatoLight;
+  color: #989898;
+  text-decoration: none;
+  word-spacing: normal;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: 1.4em;
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+/* line 32, ../sass/anuncios.scss */
+td.description p,
+td.posted p,
+td.more a p {
+  margin: 0px;
+}
+
+/* line 36, ../sass/anuncios.scss */
+td.description {
+  font-size: 0.8em;
+}
+
+/* line 40, ../sass/anuncios.scss */
+td.posted {
+  color: #e94b63;
+}
+
+/* line 43, ../sass/anuncios.scss */
+td.more a {
+  background-image: url("../img/mas.png");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  margin-right: -10px;
+  text-indent: -9999px;
+  display: block;
+  height: 25px;
+  width: 25px;
+  position: relative;
+  right: 10px;
+  top: 13px;
+}
+
+/* line 59, ../sass/anuncios.scss */
+table.announcements td.posted {
+  padding-bottom: 1em;
+}
+
+/* line 64, ../sass/anuncios.scss */
+table.announcements td.endseparator {
+  padding-bottom: 2em;
+  border-top: 3px solid #f0f0f0;
+}
+/* line 68, ../sass/anuncios.scss */
+table.announcements td.separator {
+  border: 1px solid #f0f0f0;
+}
+
+/* line 73, ../sass/anuncios.scss */
+table.announcements td {
+  font-family: LatoRegular;
+}
+/* line 75, ../sass/anuncios.scss */
+table.announcements td strong {
+  font-weight: normal;
+}
+
+/*table.announcements tr.description {
+  td.description {
+    p:last-of-type {
+      margin-bottom: 1.5em;
+    }
+  }
+}*/

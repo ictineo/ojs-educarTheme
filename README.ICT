@@ -1,0 +1,46 @@
+/***********************************/
+/***Modificacions sobre templates***/
+/*********Projecte Ictineo**********/
+/***********************************/
+
+Copiats els header_x.tpl de templates/common/ i templates/article/ de papers a ojs-educar.
+Creades carpetes "old" amb el header.tpl original a common i a article.
+
+Canviada la partícula _papers per _educar en el nom dels fitxers.
+
+MODIFICACIONS DELS TPL:
+
+common/header_educar.tpl
+  Eliminació dels separadors entre idiomes
+
+common/header_educar_body.tpl
+  Eliminació dels separadors entre idiomes
+  Modificació línies 55 i 57 de papers.logout i papers.login a educar.logout i educar.login
+  Línia 46: Inclusió de plugins/blocks/user/block.tpl a .header .left
+  Línia 62 es comenta la inclusió de navbar.tpl
+  Línia 67: s'inclou navbar.tpl
+  Línia 77: s'inclou plugins/blocks/navigation/block.tpl
+
+common/footer.tpl
+  copiem el template que s'inclou des de lib/pkp/templates/common/footer.tpl a footer_educar.tpl, forcem la insercio d'aquest
+  a footer_educar afegim els wrapper d'HTML minims per poder implementar el theme
+  movem el tancament de #content a sobre del peu de manera que el peu queda fora del content -> necessari per aplicar netament els amples màxims
+
+index/journal.tpl
+  Movem els anuncis a sota del numero
+
+issue/view.tpl 
+  movem a sota el veure el contingut (showToc)
+  refem els condicionals per mostrar alhora: portada + descripcio + toc
+
+issue/issue.tpl
+  afegim elemnts necessaris per aplicar el diseny del toc
+
+lib/pkp/templates/common/footer_REDI.tpl
+  firma del theme
+
+MODIFICACIONS A EducarThemePlugin.php
+  Canvi de noms de fulls de css i correcció de les rutes
+  Es comenten les línies referents a js
+  
+

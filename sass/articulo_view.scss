@@ -1,0 +1,21 @@
+p a.action {
+  background-image: none;
+}
+#content {
+  & > h3 {
+    margin-left: 9px;
+    top: 26px;
+    position: relative;
+    & + ul.plain {
+      margin-left: -30px;
+      top: 26px;
+      position: relative;
+    }
+  }
+  & a.file + div.separator + h3 {
+    margin-left: 38px;
+    & + ul.plain {
+      margin-left: 0px;
+    }
+  }
+}

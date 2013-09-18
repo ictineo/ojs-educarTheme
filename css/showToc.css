@@ -1,0 +1,196 @@
+/*************** Estils pels llistats d'articles ***************/
+/*** Desenvolupat per Projecte Ictineo per la revista Educar ***/
+/** View control matters **/
+/* line 5, ../sass/showToc.scss */
+#showTocWrapper {
+  display: none;
+}
+
+/* line 6, ../sass/showToc.scss */
+#tocWrapper {
+  clear: both;
+  display: block;
+}
+
+/* line 12, ../sass/showToc.scss */
+#body div#main {
+  /*  #breadcrumb {
+      margin: {
+        bottom: 60px;
+        top: -60px; }
+      line-height: 5px;
+    }*/
+}
+/* line 13, ../sass/showToc.scss */
+#body div#main h2 {
+  display: none;
+}
+/* line 22, ../sass/showToc.scss */
+#body div#main h3 {
+  font-family: LatoRegular;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  margin-top: 25px;
+}
+/* line 29, ../sass/showToc.scss */
+#body div#main div#content {
+  /** Numero complet **/
+  /* ICT DESCOMENTAR PER ACONSEGUIR 
+   * LEFECTE DE NUMERO COMPLERT
+   */
+  /*#tocWrapper > h4:nth-of-type(1) + table.tocArticle {
+    tr {
+      display: block;
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      text-align: center;
+      td {
+        display: inline-block;
+        &.tocTitle {
+          text-align: right;
+          width: 200px;
+          font-size: 1em;
+          text-transform: uppercase;
+          font-family: 'LatoBold';
+          line-height: 1.4em;
+          margin-right: -15px;
+          margin-top: -5px;
+        }
+        &.tocGalleys {
+          text-align: left;
+          width: 5%;
+          a {
+            display: inline-block;
+            width: 34px;
+            height: 44px;
+            background-repeat: no-repeat;
+            background-image: url('../img/descargar.png');
+            text-indent: -9999px;
+            overflow: hidden;
+          }
+          .tocPages {
+            display: none;
+          }
+        }
+      }
+    }
+  }*/
+}
+/* line 30, ../sass/showToc.scss */
+#body div#main div#content h3 {
+  display: none;
+}
+/* line 33, ../sass/showToc.scss */
+#body div#main div#content h4.tocSectionTitle {
+  font-family: LatoBold;
+  font-size: 1em;
+  color: #000;
+  text-decoration: none;
+  word-spacing: normal;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+/* line 47, ../sass/showToc.scss */
+#body div#main div#content #issueCoverDescription p {
+  margin: 0px;
+  margin-left: 260px;
+  font-family: 'DroidSerifRegular';
+  background-color: #fff;
+  color: #454545;
+  text-decoration: none;
+  word-spacing: normal;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: 1.4em;
+  font-size: 1em;
+}
+/* line 60, ../sass/showToc.scss */
+#body div#main div#content #tocWrapper {
+  margin-top: 20px;
+  /* canviem de 60 a 30 al treure
+   * el boto de descarrega num complet
+   * que es maquetava a la part superior
+   */
+  /*padding-top: 60px;*/
+  padding-top: 25px;
+  position: relative;
+  margin-left: 6px;
+}
+/* line 113, ../sass/showToc.scss */
+#body div#main div#content table.tocArticle {
+  margin-top: 12px;
+}
+/* line 115, ../sass/showToc.scss */
+#body div#main div#content table.tocArticle tr {
+  width: 90%;
+}
+/* line 118, ../sass/showToc.scss */
+#body div#main div#content table.tocArticle td.tocTitle {
+  text-decoration: none;
+  word-spacing: normal;
+  text-align: left;
+  width: 65%;
+  font-family: LatoRegular;
+  font-size: 1em;
+  color: #e94b63;
+  line-height: 1.2em;
+  padding-right: 30px;
+}
+/* line 129, ../sass/showToc.scss */
+#body div#main div#content table.tocArticle td.tocTitle .authorsWrapper {
+  font-family: LatoRegular;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+/* line 134, ../sass/showToc.scss */
+#body div#main div#content table.tocArticle td.tocTitle a {
+  font-family: LatoItalic;
+  font-size: 1.1em;
+  color: #000;
+  line-height: 1.2em;
+}
+/* line 140, ../sass/showToc.scss */
+#body div#main div#content table.tocArticle td.tocTitle a:hover {
+  color: #6d6d6d;
+}
+/* line 146, ../sass/showToc.scss */
+#body div#main div#content .tocGalleys {
+  width: 29%;
+  text-align: left;
+}
+/* line 149, ../sass/showToc.scss */
+#body div#main div#content .tocGalleys a {
+  font-family: bariol_regularregular;
+  font-size: 0.9em;
+  line-height: 1.2em;
+  color: #000000;
+  text-transform: none;
+}
+/* line 157, ../sass/showToc.scss */
+#body div#main div#content .tocGalleys .viewSummary {
+  display: inline;
+}
+/* line 159, ../sass/showToc.scss */
+#body div#main div#content .tocGalleys .viewSummary a {
+  font-family: bariol_regularregular;
+  font-size: 0.9em;
+  line-height: 1.2em;
+  letter-spacing: 0;
+  color: #e94b63;
+}
+/* line 168, ../sass/showToc.scss */
+#body div#main div#content .tocGalleys .tocPages {
+  font-family: Bariolregular_italic;
+  font-size: 0.8em;
+  color: #6d6d6d;
+  text-decoration: none;
+  word-spacing: normal;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 1em;
+  text-transform: lowercase;
+}

@@ -1,0 +1,249 @@
+/********************* Pagina de registre ********************/
+/** Desenvolupat per Projecte Ictineo per la revista Educar **/
+/* line 4, ../sass/registro.scss */
+textarea {
+  resize: none;
+}
+
+/* line 10, ../sass/registro.scss */
+#content form p {
+  color: #000000;
+}
+/* line 13, ../sass/registro.scss */
+#content form a {
+  color: #e94b63;
+}
+/* line 15, ../sass/registro.scss */
+#content form a:hover {
+  color: #6d6d6d;
+}
+/* line 19, ../sass/registro.scss */
+#content form a.close {
+  display: inline;
+}
+/* line 22, ../sass/registro.scss */
+#content form h3 {
+  color: #E94B63;
+  font-family: bariol_boldbold;
+  font-size: 1.2em;
+  padding-top: 10px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/* line 33, ../sass/registro.scss */
+#content form #privacyStatement h3 {
+  font-size: 1em;
+}
+/* line 36, ../sass/registro.scss */
+#content form #privacyStatement p {
+  font-size: 0.9em;
+}
+
+/* line 42, ../sass/registro.scss */
+table.data td.label {
+  width: 25%;
+  text-align: right;
+  float: left;
+  padding-left: 0px;
+}
+
+/* line 49, ../sass/registro.scss */
+#body table * {
+  display: block;
+}
+
+/* line 53, ../sass/registro.scss */
+table.data tr {
+  clear: both;
+}
+
+/* line 58, ../sass/registro.scss */
+#body table.data tr:nth-of-type(3), #body table.data tr:nth-of-type(5) {
+  /*display: none;*/
+  height: 0px;
+  float: right;
+  width: 100%;
+}
+
+/* line 66, ../sass/registro.scss */
+table.data td.value {
+  float: left;
+  width: 72%;
+                    /* font: {
+  family: Bariol_boldbold;
+  size: 0.8em; }
+line-height: 0.9em;
+margin-left: 16px;
+padding-bottom: 1em;/*des de font, linies estil text per l'exemple de les inicials...*/
+  /* * {
+     line-height: 1em;
+     margin-left: 0;
+   }*/
+}
+/* line 98, ../sass/registro.scss */
+table.data td.value #languageSelector,
+table.data td.value #username,
+table.data td.value #password,
+table.data td.value #password2,
+table.data td.value #captcha,
+table.data td.value #salutation,
+table.data td.value #firstName,
+table.data td.value #middleName,
+table.data td.value #lastName,
+table.data td.value #initials,
+table.data td.value #gender,
+table.data td.value textarea.textArea,
+table.data td.value #signature,
+table.data td.value #email,
+table.data td.value #confirmEmail,
+table.data td.value #userUrl,
+table.data td.value #phone,
+table.data td.value #fax,
+table.data td.value #country {
+  /*  #biography_tbl,*/
+  float: left;
+  width: 45%;
+  margin-left: 30px;
+  margin-right: 3px;
+}
+/* line 106, ../sass/registro.scss */
+table.data td.value #formLocale {
+  width: 103%;
+}
+/* line 109, ../sass/registro.scss */
+table.data td.value #gender {
+  width: 46%;
+}
+/* line 112, ../sass/registro.scss */
+table.data td.value #captcha {
+  margin-top: -32px;
+}
+/* line 115, ../sass/registro.scss */
+table.data td.value #email {
+  margin-right: 14px;
+}
+/* line 118, ../sass/registro.scss */
+table.data td.value .instruct {
+  font-family: Bariol_regularregular;
+  font-size: 0.8em;
+  line-height: 0.9em;
+  float: left;
+  width: 45%;
+  margin-left: 16px;
+  /*  padding-bottom: 1em;*/
+}
+/* line 128, ../sass/registro.scss */
+table.data td.value > img {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+/* line 132, ../sass/registro.scss */
+table.data td.value img + br + span.instruct {
+  float: right;
+  margin-top: 10px;
+}
+/* line 136, ../sass/registro.scss */
+table.data td.value textarea + br + span.instruct {
+  float: right;
+  margin-top: -116px;
+}
+/* line 140, ../sass/registro.scss */
+table.data td.value a.action {
+  font-family: Bariol_boldbold;
+  font-size: 0.8em;
+  line-height: 0.9em;
+  text-transform: none;
+  padding: 0;
+}
+/* line 150, ../sass/registro.scss */
+table.data td.value input#sendPassword,
+table.data td.value input#registerAsReader,
+table.data td.value input#registerAsAuthor {
+  margin-left: 30px;
+  margin-top: 6px;
+  margin-right: 16px;
+  float: left;
+}
+/* line 156, ../sass/registro.scss */
+table.data td.value input#sendPassword + label,
+table.data td.value input#registerAsReader + label,
+table.data td.value input#registerAsAuthor + label {
+  font-family: Bariol_regularregular;
+  font-size: 0.8em;
+  line-height: 1.7em;
+  display: inline;
+}
+/* line 166, ../sass/registro.scss */
+table.data td.value input#userLocales-ca_ES,
+table.data td.value input#userLocales-en_US,
+table.data td.value input#userLocales-es_ES {
+  display: inline;
+  margin-left: 30px;
+}
+/* line 173, ../sass/registro.scss */
+table.data td.value input#userLocales-ca_ES + label,
+table.data td.value input#userLocales-en_US + label,
+table.data td.value input#userLocales-es_ES + label {
+  display: inline;
+  margin-left: 16px;
+  font-family: Bariol_regularregular;
+  font-size: 0.8em;
+}
+/* line 180, ../sass/registro.scss */
+table.data td.value #reviewerInterestsContainer {
+  margin-top: 10px;
+}
+/* line 182, ../sass/registro.scss */
+table.data td.value #reviewerInterestsContainer .desc {
+  width: 150px;
+  float: left;
+  margin-left: -184px;
+  margin-top: -5px;
+}
+/* line 188, ../sass/registro.scss */
+table.data td.value #reviewerInterestsContainer .interests {
+  margin-top: 10px;
+}
+
+/* line 194, ../sass/registro.scss */
+table.data td.instruct {
+  font-family: Bariol_regularregular;
+  font-size: 0.8em;
+  line-height: 0.9em;
+  float: right;
+  position: relative;
+  top: -60px;
+  width: 32.9%;
+  padding-bottom: 0;
+}
+
+/* line 207, ../sass/registro.scss */
+#body table.data td.value span.mceEditor table {
+  display: table;
+  margin-left: 30px;
+}
+/* line 211, ../sass/registro.scss */
+#body table.data td.value span.mceEditor tr {
+  display: table-row;
+}
+/* line 214, ../sass/registro.scss */
+#body table.data td.value span.mceEditor td {
+  display: table-cell;
+}
+
+/* line 219, ../sass/registro.scss */
+#content ul li {
+  background-image: none;
+}
+
+/* line 223, ../sass/registro.scss */
+ul.tagit li.tagit-choice {
+  background-color: #F0F0F0;
+  border-style: none;
+}
+/* line 226, ../sass/registro.scss */
+ul.tagit li.tagit-choice:hover {
+  border: 1px solid #6d6d6d;
+  background-color: #F0F0F0;
+}

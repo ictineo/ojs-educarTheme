@@ -1,0 +1,244 @@
+/*BÚSQUEDA*/
+
+
+div,
+tbody {
+  font-family: bariol_regularregular;
+}
+
+#advancedSearch h4 {
+  margin-left: -16px;
+}
+
+#advancedSearch td.formSubLabel h4 {
+  margin-left: 0px;
+}
+#advancedSearch {
+  table.data {
+    tr {
+      td {
+        padding: 0px;
+        padding-bottom: 8px;
+        &.label {
+          width:33%;
+          padding-left: 16px;
+        }
+        h4{
+          padding-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+
+#content h4 {
+  font-family: Bariol_boldbold;
+  font-size:1.2em;
+  color:#E94B63;
+}
+
+#content ul {
+  list-style:none;
+  padding-top:0.5em;
+  li {padding-top:0.2em;
+      padding-left:1.5em;
+      background-image:url("../img/flecha_r.png");
+      background-repeat:no-repeat;
+      background-position: 0 8px;
+      margin-left:1em;
+    }
+}
+
+input.button {
+  background-color: #E94B63;
+  font: {
+    family: Bariol_regularregular;
+    size: 0.8em; }
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    text: {
+      align: left;
+      decoration: none;
+      transform: uppercase; }
+    word-spacing: normal;
+  color: #ffffff;
+  border-style: none;
+  &:hover {
+    color: #000000;
+  }
+}
+
+
+
+/*Login*/
+
+#signinTable {
+  text-align:center;
+  margin-left:5em;
+  td.label {
+    color: #E94B63;
+    font-family: LatoRegular;
+    font-size: 1em;
+    width:36%;
+    text-align:right;
+    padding-right:0px; }
+}
+
+
+p {
+  color:#E94B63;
+ a:link {
+  font-family:LatoRegular;
+  color:#E94B63;
+  padding-bottom:0.5em;}
+
+ a:hover {
+   color: #6d6d6d;
+ }
+ /*a:visited {
+   color: #e94b63;
+ }*/
+} 
+
+
+/*USER*/
+
+#myJournals,
+#myAccount {
+  padding-bottom:1em;
+  h3 {padding-bottom:0.2em;
+      padding-top:1.8em;}
+  a:link {    color:#e94b63;}
+  a:hover {   color: #454545;}
+
+}
+
+
+
+#myAccount, 
+#myJournals {
+ h3  { font-family: bariol_regularregular;  }
+ tr td {/* width:10%;*/
+         padding-right:0.5em;
+         padding-top: 0.4em;}
+ }
+/*#myJournals tr > td {
+  width:25%;
+}*/
+
+
+#myAccount ul li {
+  background-image:none;
+}
+
+
+/**
+ * chozen
+ */
+#content #advancedSearch  {
+ 
+  margin-top: 28px;
+
+  #selMHN_chzn { width:128px;} 
+ 
+
+  .chzn-container-single .chzn-single span {
+    color:#FBFBFB;
+    width:auto;
+  }
+  .chzn-container {
+    width: 28%;
+    width: 28% !important;
+    .chzn-single {
+    background-color: #6D6D6D;
+    background-image: none;
+    border: 0 none;
+    border-radius: 0 0 0 0;
+    height: 22px;
+    padding-right: 4px;  }
+  .chzn-container .chzn-drop {
+    background-color: #6D6D6D;
+    border: 0 none;
+    border-radius: 0 0 0 0;
+/*    width: 140px !important;*/   }
+    input.textField,
+    .chzn-container,
+    select.selectMenu {
+/*      width: 136px;*/
+      /*border: none;*/
+      margin: {
+        left: 27px; }
+    }
+    select.selectMenu {
+      background-color: #6d6d6d;
+    }
+    input.textField {
+      margin: {
+        top: 13px;
+        bottom: 6px; }
+    }
+  }
+    .chzn-container {
+      /*width: 140px !important;
+/*      width: 140px;*/
+      height: 22px;
+      font-size: 16px; /* base pel calcul de em, sobrescrivim el css per defecte del chosen */
+      .chzn-single {
+        background-image: none;
+        background-color: #6d6d6d;
+        border-radius: 0;
+/*        border: 0px none;*/
+        padding-right: 4px;
+        height: 22px;
+        & > div,
+        & > div > b {
+          display: none;
+        }
+        span {
+          color: #fbfbfb;
+          font-size: 0.9em;
+          margin-right: 4px;
+        } 
+      }
+      .chzn-drop {
+ /*       width: 140px !important;*/
+ /*        width: 140px;*/
+/*       border: 0px none;*/
+        border-radius: 0px;
+        background-color: #6d6d6d;
+        width: 100%;
+        width: 100% !important;
+        .chzn-search {
+          display: none;
+        }
+        ul.chzn-results {
+          list-style: none;
+          margin: 0px;
+          margin-left: -4px;
+          color: #fbfbfb;
+          background-image:none;
+          li {
+            font-size: 0.9em;
+            font-family: "LatoRegular";
+            font-weight: normal;
+            background-color: none;
+            line-height: 100%;
+            padding-top: 3px;
+            padding-bottom: 5px;
+            background-image: none;
+            padding-left:10px;
+            margin-left:0px;
+            padding-right: 8px;
+
+            &.highlighted,
+            &:hover {
+              color: #e94b63;
+              background-color: #6d6d6d;
+            }
+          }
+       }
+     }
+   }
+ }
+

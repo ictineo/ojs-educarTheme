@@ -1,0 +1,74 @@
+/**************** Estils per archive pages ***********************/
+/*** Desenvolupat per Projecte Ictineo per a la revista Educar ***/
+/* line 5, ../sass/archivo.scss */
+#content {
+  font-family: Bariol_regularregular;
+  font-size: 0.9em;
+}
+/* line 9, ../sass/archivo.scss */
+#content strong {
+  color: #000000;
+}
+/* line 12, ../sass/archivo.scss */
+#content strong ~ a {
+  color: #E94b63;
+}
+/* line 14, ../sass/archivo.scss */
+#content strong ~ a:hover {
+  color: #6d6d6d;
+}
+/* line 18, ../sass/archivo.scss */
+#content a {
+  color: #000000;
+}
+/* line 20, ../sass/archivo.scss */
+#content a:hover {
+  color: #e94b63;
+}
+
+/* line 26, ../sass/archivo.scss */
+#issues {
+  /*  div {
+      font-size: 1.12em;
+    }*/
+}
+/* line 30, ../sass/archivo.scss */
+#issues h3 {
+  font-family: LatoBold;
+  font-size: 1.33em;
+  color: #e94b63;
+  text-decoration: none;
+  text-align: left;
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+/* line 47, ../sass/archivo.scss */
+.issueCoverImage {
+  display: none;
+}
+
+/* line 51, ../sass/archivo.scss */
+#main h4 {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding-left: 33px;
+}
+
+/* line 59, ../sass/archivo.scss */
+#issue a {
+  font-family: LatoRegular;
+  font-size: 0.74em;
+  color: #000;
+}
+/* line 64, ../sass/archivo.scss */
+#issue a:hover {
+  color: #6d6d6d;
+}
+/* line 68, ../sass/archivo.scss */
+#issue .issueCoverDescription {
+  display: none;
+}

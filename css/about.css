@@ -1,0 +1,98 @@
+/*ACERCA DE*/
+/* line 3, ../sass/about.scss */
+#content {
+  /*padding-left: 0px;*/
+  margin-top: 16px;
+}
+
+/* line 8, ../sass/about.scss */
+#content h3 {
+  color: #e94b63;
+  font-size: 1.2em;
+  font-family: LatoBold;
+  padding-bottom: 0.5em;
+  margin-top: 10px;
+  /*margin-bottom: -22px;*/
+}
+
+/* line 20, ../sass/about.scss */
+#content #mailingAddress h3,
+#content #principalContact h3,
+#content #supportContact h3 {
+  margin-bottom: -22px;
+}
+/* line 24, ../sass/about.scss */
+#content h4 {
+  padding-top: 0.4em;
+  font-size: 19px;
+}
+
+/* line 30, ../sass/about.scss */
+a:link {
+  color: #6d6d6d;
+}
+
+/* line 37, ../sass/about.scss */
+#aboutPeople,
+#aboutPolicies,
+#aboutSubmissions,
+#aboutOther {
+  width: 30%;
+  float: left;
+  padding-bottom: 1em;
+  padding-right: 2em;
+  /*margin-left: 16px;*/
+}
+/* line 43, ../sass/about.scss */
+#aboutPeople ul.plain,
+#aboutPolicies ul.plain,
+#aboutSubmissions ul.plain,
+#aboutOther ul.plain {
+  font-size: 1em;
+  text-transform: none;
+  background-color: #ffffff;
+  margin-left: 0px;
+  border-style: none;
+}
+/* line 49, ../sass/about.scss */
+#aboutPeople ul.plain li,
+#aboutPolicies ul.plain li,
+#aboutSubmissions ul.plain li,
+#aboutOther ul.plain li {
+  display: block;
+  padding-left: 0px;
+  line-height: 1em;
+}
+/* line 53, ../sass/about.scss */
+#aboutPeople ul.plain li a,
+#aboutPolicies ul.plain li a,
+#aboutSubmissions ul.plain li a,
+#aboutOther ul.plain li a {
+  margin-left: -16px;
+  background-color: white;
+  font-family: LatoLight;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  word-spacing: 0.2em;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: 1.9em;
+  font-size: 1em;
+  padding: 0px;
+}
+/* line 67, ../sass/about.scss */
+#aboutPeople ul.plain li a:hover,
+#aboutPolicies ul.plain li a:hover,
+#aboutSubmissions ul.plain li a:hover,
+#aboutOther ul.plain li a:hover {
+  color: #454545;
+  border-style: none;
+}
+
+/* line 75, ../sass/about.scss */
+#authorGuidelines li {
+  margin-left: 20px;
+  padding: 4px 0;
+  list-style-image: url("../img/flecha_r.png");
+}

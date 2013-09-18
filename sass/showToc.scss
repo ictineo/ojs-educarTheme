@@ -1,0 +1,183 @@
+/*************** Estils pels llistats d'articles ***************/
+/*** Desenvolupat per Projecte Ictineo per la revista Educar ***/
+
+/** View control matters **/
+#showTocWrapper {display: none;}
+#tocWrapper {
+  clear: both;
+  display: block;
+}
+
+#body {
+  div#main {
+    h2 {
+      display: none;
+      }
+  /*  #breadcrumb {
+      margin: {
+        bottom: 60px;
+        top: -60px; }
+      line-height: 5px;
+    }*/
+    h3 {
+      font: {
+        family: LatoRegular;
+        size: 1.6em; }
+      line-height: 1.5em;
+      margin-top: 25px;
+    }
+    div#content {
+      h3 {
+        display: none;
+      }      
+      h4.tocSectionTitle {
+        font: {
+          family: LatoBold;
+          size: 1em; }
+        color: #000; 
+        text-decoration: none;
+        word-spacing: normal;
+        text-align: left;
+        letter-spacing: 1px;
+        line-height: 1.2em;
+        margin: {
+          top: 30px;
+          bottom: -10px; }
+      }
+      #issueCoverDescription p{
+        margin: 0px;
+        margin-left: 260px;
+        font-family: 'DroidSerifRegular';
+        background-color: #fff;
+        color: #454545;
+        text-decoration: none;
+        word-spacing: normal;
+        text-align: left;
+        letter-spacing: 0;
+        line-height: 1.4em;
+        font-size: 1em;
+      }
+      #tocWrapper {
+        margin-top: 20px;
+        /* canviem de 60 a 30 al treure
+         * el boto de descarrega num complet
+         * que es maquetava a la part superior
+         */
+        /*padding-top: 60px;*/
+        padding-top: 25px;
+        position: relative;
+        margin-left: 6px;
+      }
+      /** Numero complet **/
+      /* ICT DESCOMENTAR PER ACONSEGUIR 
+       * LEFECTE DE NUMERO COMPLERT
+       */
+      /*#tocWrapper > h4:nth-of-type(1) + table.tocArticle {
+        tr {
+          display: block;
+          position: absolute;
+          top: 0px;
+          width: 100%;
+          text-align: center;
+          td {
+            display: inline-block;
+            &.tocTitle {
+              text-align: right;
+              width: 200px;
+              font-size: 1em;
+              text-transform: uppercase;
+              font-family: 'LatoBold';
+              line-height: 1.4em;
+              margin-right: -15px;
+              margin-top: -5px;
+            }
+            &.tocGalleys {
+              text-align: left;
+              width: 5%;
+              a {
+                display: inline-block;
+                width: 34px;
+                height: 44px;
+                background-repeat: no-repeat;
+                background-image: url('../img/descargar.png');
+                text-indent: -9999px;
+                overflow: hidden;
+              }
+              .tocPages {
+                display: none;
+              }
+            }
+          }
+        }
+      }*/
+      table.tocArticle {
+        margin-top: 12px;
+        tr {
+          width:90%;
+        }
+        td.tocTitle {
+          text-decoration: none;
+          word-spacing: normal;
+          text-align: left;
+          width: 65%;
+          font: {
+            family: LatoRegular;
+            size: 1em; }
+          color: #e94b63;
+          line-height: 1.2em;
+          padding-right: 30px;
+          .authorsWrapper {
+            font-family: LatoRegular;
+            font-size: 1em;
+            line-height: 1.2em;
+          }
+          a {
+            font: {
+              family: LatoItalic;
+              size: 1.1em; }
+            color: #000;
+            line-height: 1.2em;
+            &:hover {
+              color: #6d6d6d;
+            }
+          }
+        }
+      }
+      .tocGalleys {
+        width: 29%;
+        text-align: left;
+        a {
+          font: {
+            family: bariol_regularregular;
+            size: 0.9em; }
+          line-height: 1.2em;
+          color: #000000;
+          text-transform: none;
+        }
+        .viewSummary {
+          display: inline;
+          a {
+            font: {
+              family: bariol_regularregular;
+              size: 0.9em;}
+            line-height: 1.2em;
+            letter-spacing: 0;
+            color: #e94b63;
+          }
+        }
+        .tocPages {
+          font: {
+            family: Bariolregular_italic;
+            size: 0.8em; }
+          color: #6d6d6d;
+          text-decoration: none;
+          word-spacing: normal;
+          text-align: left;
+          letter-spacing: 1px;
+          line-height: 1em;
+          text-transform: lowercase;
+        }
+      }  
+    }  
+  }   
+}

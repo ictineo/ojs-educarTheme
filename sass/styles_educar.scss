@@ -1,0 +1,86 @@
+/***************************************************/
+/************ Common styles for Educar *************/
+/************** Projecte Ictineo *******************/
+/***************************************************/
+
+
+@mixin header_menus {
+  font: {                                                      
+    family: Bariol_regularregular;
+    size: 0.8em; }
+  background-color: #454545;
+  color: #fff;
+  text: {
+    decoration: none;
+    align: left; }
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  &:hover,
+  &:active {
+    color: #e94b63;
+  }
+}
+
+@mixin nav_menu {
+  font: {
+    family: Bariol_boldbold;
+    size: 1em; }
+  background-color: #ffffff;
+  color: #454545;
+  text: {
+    decoration: none;
+    transform: uppercase;
+    align: center; }
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  margin-right: 26px;
+}
+
+@mixin right_menu {
+  font: {
+    family: Bariol_regularregular;
+    size: 0.9em; }
+  background-color: #fff;
+  color: #000;
+  text: {
+    decoration: none;
+    align: left;
+    transform: uppercase; }
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 2.2em; 
+  margin: {
+    top: 27px;
+    left: -16px; }
+  padding: {
+    left: 43px; }
+}
+
+@mixin r_menu_ul {
+  list-style: none;
+  margin: {
+    bottom: 10px;
+    top: -10px;
+    left: 27px; }
+}
+
+
+@mixin r_menu_ul_a {
+  font: {
+    family: LatoRegular;
+    size: 0.9em; }
+  background-color: #f0f0f0;
+  color: #e94b63;
+  text: {
+    decoration: none;
+    align: left; }
+  word-spacing: normal;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+  &:hover {
+    color: #454545;
+  }
+}
+

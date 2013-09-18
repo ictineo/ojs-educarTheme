@@ -1,0 +1,71 @@
+/**************** Estils per archive pages ***********************/
+/*** Desenvolupat per Projecte Ictineo per a la revista Educar ***/
+
+
+#content {
+  font: {
+    family: Bariol_regularregular;
+    size: 0.9em; }
+  strong {
+    color: #000000;
+  }
+  strong ~ a {
+    color: #E94b63;
+    &:hover {
+      color: #6d6d6d;
+    }
+  }
+  a {
+    color: #000000;
+    &:hover {
+      color: #e94b63;
+    }
+  }
+}
+
+#issues {
+/*  div {
+    font-size: 1.12em;
+  }*/
+  h3 {
+    font: {
+      family: LatoBold;
+      size: 1.33em; }
+    color: #e94b63;
+    text: {
+      decoration: none;
+      align: left; }
+    word-spacing: normal;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    margin: {
+      top: 0.8em;
+      bottom: 0.8em; }
+  }
+}
+
+.issueCoverImage {
+  display: none;
+}
+
+#main h4 {
+  margin: {
+    top: 6px;
+    bottom: 6px; }
+  padding-left: 33px;
+}
+
+#issue {
+  a {
+    font: {
+      family: LatoRegular;
+      size: 0.74em; }
+    color: #000;
+    &:hover {
+      color: #6d6d6d;
+    }
+  }
+  .issueCoverDescription {
+    display: none;
+  }
+}
